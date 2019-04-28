@@ -20,6 +20,11 @@
 - Baixar, abrir, editar e criar Notebooks que executem blocos de código de Python (Python 3)
 - Converter notebooks do Jupyter para PDF.
 
+### [Hands-on 03: Instalando o ns-3 e integrando com o Eclipse](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_03/f00_hd03.ipynb)
+**Objetivos**
+- Instalar o ns3 e dependências;
+- Integrar o ns3 com o eclipse.
+
 
 ## Fase I: Desafios relacioandos ao tutorial
 
