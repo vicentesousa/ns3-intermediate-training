@@ -8,19 +8,19 @@
 
 ## Fase 00: Preparação do ambiente de trabalho (prazo: 28/04/2019)
 
-### [Hands-on 01: Github - o básico sobre repositórios](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_01/f00_hd01.ipynb)
+### [Hands-on 01: Github - o básico sobre repositórios](http://nbviewer.jupyter.org/github/danielrluna/ns3-intermediate-training/tree/master/fase_00/HD_01/f00_hd01.ipynb)
 **Objetivos**
 - Cadastramento no GitHub
 - Criar repositorios no GitHub
 - Submeter arquivos para repositórios do GitHub
 - Editar o README.md
 
-### [Hands-on 02: Básico do Jupyter Notebook](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_02/f00_hd02.ipynb)
+### [Hands-on 02: Básico do Jupyter Notebook](http://nbviewer.jupyter.org/github/danielrluna/ns3-intermediate-training/tree/master/fase_00/HD_02/f00_hd02.ipynb)
 **Objetivos**
 - Baixar, abrir, editar e criar Notebooks que executem blocos de código de Python (Python 3)
 - Converter notebooks do Jupyter para PDF.
 
-### [Hands-on 03: Instalando o ns-3 e integrando com o Eclipse](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_03/f00_hd03.ipynb)
+### [Hands-on 03: Instalando o ns-3 e integrando com o Eclipse](http://nbviewer.jupyter.org/github/danielrluna/ns3-intermediate-training/tree/master/fase_00/HD_03/f00_hd03.ipynb)
 **Objetivos**
 - Instalar o ns3 e dependências;
 - Integrar o ns3 com o eclipse.
@@ -28,7 +28,7 @@
 
 ## Fase I: Desafios relacioandos ao tutorial
 
-### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_01/f01_hd01.ipynb)
+### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/danielrluna/ns3-intermediate-training/tree/master/fase_01/HD_01/f01_hd01.ipynb)
 **Objetivos**
 - Prática 01: envio de dois pacotes de tamanhos diferentes
 - Prática 02: mudança na taxa de transmissão
@@ -38,7 +38,7 @@
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 
 
-### [Hands-on 02: Desafios relacionados ao exemplo second.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_02/f01_hd02.ipynb)
+### [Hands-on 02: Desafios relacionados ao exemplo second.cc](http://nbviewer.jupyter.org/github/danielrluna/ns3-intermediate-training/tree/master/fase_01/HD_02/f01_hd02.ipynb)
 **Objetivos**
 - Prática 01: envio de dois pacotes de tamanhos diferentes sem criar novos objetos;
 - Prática 02: aumentar número de nós via linha de comando;
