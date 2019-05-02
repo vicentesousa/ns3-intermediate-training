@@ -60,15 +60,7 @@
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 
 
-### [Hands-on 05: Desafios relacionados ao exemplo fifth.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_03/f01_hd03.ipynb)
-**Objetivos**
-- Prática 01: uso do GNUPlot para visualizar a janela de congestionamento.
-
-**Equipe de execução:** Daniel Flor (danielflor@ufrn.edu.br) - **Prazo:** 02/05/2019;
-
-**Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
-
-### [Hands-on 06: Desafios relacionados ao exemplo sixth.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_03/f01_hd03.ipynb)
+### [Hands-on 4: Desafios relacionados ao exemplo third.cc parte 2](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_04/f01_hd04.ipynb)
 **Objetivos**
 - Prática 01: Mudar modelo de mobilidade, plotar as posições das STAs com o GNUPlot.
 
@@ -77,8 +69,13 @@
 **Equipe de revisão:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 12/05/2019.
 
 
+### [Hands-on 05: Desafios relacionados ao exemplo fifth.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_03/f01_hd03.ipynb)
+**Objetivos**
+- Prática 01: uso do GNUPlot para visualizar a janela de congestionamento.
 
+**Equipe de execução:** Daniel Flor (danielflor@ufrn.edu.br) - **Prazo:** 02/05/2019;
 
+**Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 <!---
 comentário
 -->
