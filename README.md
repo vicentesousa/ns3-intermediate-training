@@ -69,7 +69,7 @@
 **Equipe de revisão:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 12/05/2019.
 
 
-### [Hands-on 05: Desafios relacionados ao exemplo fifth.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_03/f01_hd03.ipynb)
+### [Hands-on 05: Desafios relacionados ao exemplo fifth.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_05/f01_hd05.ipynb)
 **Objetivos**
 - Prática 01: uso do GNUPlot para visualizar a janela de congestionamento.
 
