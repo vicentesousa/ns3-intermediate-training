@@ -26,7 +26,7 @@
 - Integrar o ns-3 com o eclipse.
 
 
-## Fase I: Desafios relacioandos ao tutorial
+## Fase I: Desafios relacionados ao tutorial
 
 ### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_01/f01_hd01.ipynb)
 **Objetivos**
