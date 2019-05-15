@@ -79,3 +79,39 @@
 <!---
 comentário
 -->
+## Fase II: Campanhas de investigação com análise de desempenho do Wi-Fi
+
+### [Hands-on 01: Campanha 0](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f01_hd01.ipynb)
+**Objetivos**
+ - Investigar o comportamento de diferentes camadas físicas do Wi-Fi com o algoritmos padrão de adaptação de taxa;
+ - Definir a camada física que iremos adotar para os próximos experimentos;
+ - Gerar um gráfico Throughput vs. Distância para cada padrão (uma linha para cada).
+
+**Instruções para o hands-on**
+ - Usar uma adaptação do rate-adaptation-distance.cc, feito para várias camadas PHY do Wi-Fi. Verificar se a taxa está sendo adaptada de maneira correta;
+ - Gerar um gráfico Throughput vs. Distância (0, 50m, 100m, 150m, 200m e 250m).
+ - Cada hands-on deve ter noção do Throughput de cada camada PHY do Wi-Fi (fazer um breve texto sobre cada camada PHY e quais funcionalidades estão implementadas no ns-3);
+ - Só fazer para camadas PHY que tenham o algoritmo de Rate Adaptation implementado;
+ - Explorar o máximo de configurações possíveis de cada camada PHY, por exemplo: channel bouning MIMO, tempo de guarda reduzido (TGI).
+
+**Divisão de Tarefas**
+
+**[Wifi 802.11a](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f01_hd01_wifia.ipynb)** - **Equipe de execução:** Ravan Oliveira (ravan@ufrn.edu.br) e Malco Dantas (malco@ufrn.edu.br) - **Prazo:** 23/05/2019;
+
+**[Wifi 802.11b](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f01_hd01_wifib.ipynb)**  - **Equipe de execução:** Ravan Oliveira (ravan@ufrn.edu.br) e Malco Dantas (malco@ufrn.edu.br) - **Prazo:** 23/05/2019;
+
+**[Wifi 802.11g](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f01_hd01_wifig.ipynb)** - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) e Mateus Batista (mateus.gppcom@ufrn.edu.br). - **Prazo:** 23/05/2019;
+
+**[Wifi 802.11n](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f01_hd01_wifin.ipynb)**  - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) e Mateus Batista (mateus.gppcom@ufrn.edu.br). - **Prazo:** 23/05/2019;
+
+**[Wifi 802.11ac](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f01_hd01_wifiac.ipynb)**  - **Equipe de execução:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 23/05/2019;
+
+**[Wifi 802.11ax](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f01_hd01_wifiax.ipynb)**  - **Equipe de execução:** Daniel Flor (danielflor@ufrn.edu.br) - **Prazo:** 23/05/2019.
+
+**Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 28/05/2019.
+
+
+
+
+
+
