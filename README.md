@@ -127,7 +127,7 @@ comentário
 
  **Equipe de revisão:** Daniel Flor (danielflor@ufrn.edu.br) e Jéssika Cristina (jessie@ufrn.edu.br)  - **Prazo:** 15/07/2019;
 
-### [Hands-on 02: Campanha 1](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd02.ipynb)
+### [Hands-on 02: Campanha 1](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_02/f02_hd02.ipynb)
 **Objetivos**
  - Analisar o comportamento do sistema com o aumento do **tráfego oferecido**;
  - Analisar o comportamento do sistema com o aumento da **duração da simulação**;
@@ -154,7 +154,7 @@ comentário
 
 - **Equipe de revisão:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 24/07/2019.
 
-### [Hands-on 03: Campanha 2](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd03.ipynb)
+### [Hands-on 03: Campanha 2](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_03/f02_hd03.ipynb)
 **Objetivos**
  - Analisar o comportamento do sistema com o aumento do número de STAs (tráfego oferecido constante).
 
@@ -175,7 +175,7 @@ comentário
 
 - **Equipe de revisão:** Daniel Flor - **Prazo:** 24/07/2019.
 
-### [Hands-on 04: Campanha 3](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01.ipynb)
+### [Hands-on 04: Campanha 3](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_04/f02_hd04.ipynb)
 **Objetivos**
  - Analisar o comportamento de diferentes algoritimos de adaptação de taxa com o aumento do número de STAs (tráfego oferecido constante).
 
