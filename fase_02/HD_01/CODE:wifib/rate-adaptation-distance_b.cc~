@@ -151,7 +151,7 @@ int main (int argc, char *argv[])
   std::string staManager = "ns3::MinstrelHtWifiManager";
   std::string apManager = "ns3::MinstrelHtWifiManager";
   std::string standard = "802.11b";
-  std::string outputFileName = "minstrel802.11bc";
+  std::string outputFileName = "minstrelHT802.11b2";
   uint32_t BE_MaxAmpduSize = 65535;
   bool shortGuardInterval = false;
   uint32_t chWidth = 20;
