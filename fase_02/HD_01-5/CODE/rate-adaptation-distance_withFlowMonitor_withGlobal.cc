@@ -402,7 +402,8 @@ int main (int argc, char *argv[])
 static bool verbose = true;
 uint32_t m_bytesTotal=0;
 std::string dl_results,ul_results;
-dl_results = "DL_Results_Sim_PropModel_.txt";
+std::string sshortGuardInterval = std::to_string (shortGuardInterval); 
+dl_results = "DL_Results_Sim_shortGuardInterval_" + sshortGuardInterval +"_staManager_" + staManager +".txt";
 ul_results = "UL_Results_Sim_PropModel_.txt";
 
 
