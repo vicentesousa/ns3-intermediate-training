@@ -187,10 +187,7 @@ int main (int argc, char *argv[])
   int stepsTime = 1;
 
   CommandLine cmd;
-  ConfigStore inputConfig;
-  inputConfig.ConfigureDefaults ();
-  
-  //cmd.AddValue ("staManager", "PRC Manager of the STA", staManager);
+   //cmd.AddValue ("staManager", "PRC Manager of the STA", staManager);
   cmd.AddValue ("apManager", "PRC Manager of the AP", apManager);
   cmd.AddValue ("standard", "Wifi Phy Standard", standard);
   //cmd.AddValue ("shortGuardInterval", "Enable Short Guard Interval in all stations", shortGuardInterval);
@@ -207,6 +204,10 @@ int main (int argc, char *argv[])
   cmd.AddValue ("STA1_y", "Position of STA1 in y coordinate", sta1_y);
   cmd.Parse (argc, argv);
 
+  ConfigStore inputConfig;
+  inputConfig.ConfigureDefaults ();
+  inputConfig.ConfigureAttributes ();
+
 
   UintegerValue uintegerValue;
   IntegerValue integerValue;
@@ -219,7 +220,9 @@ int main (int argc, char *argv[])
   uint32_t shortGuardInterval = booleanValue.Get ();
   GlobalValue::GetValueByName ("staManagerG", stringValue);
   std::string staManager = stringValue.Get ();
-
+  
+  inputConfig.ConfigureAttributes ();
+  
   int simuTime = steps * stepsTime;
 
   // Define the APs
