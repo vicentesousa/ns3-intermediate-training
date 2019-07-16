@@ -151,7 +151,7 @@ int main (int argc, char *argv[])
   std::string staManager = "ns3::MinstrelHtWifiManager";
   std::string apManager = "ns3::MinstrelHtWifiManager";
   std::string standard = "802.11n-2.4GHz";
-  std::string outputFileName = "minstrelHt+2.4";
+  std::string outputFileName = "n-2.4-novo";
   uint32_t BE_MaxAmpduSize = 65535;
   bool shortGuardInterval = false;
   uint32_t chWidth = 20;
@@ -159,9 +159,9 @@ int main (int argc, char *argv[])
   int ap1_y = 0;
   int sta1_x = 5;
   int sta1_y = 0;
-  int steps = 100;
-  int stepsSize = 1;
-  int stepsTime = 1;
+  int steps = 125;
+  int stepsSize = 2;
+  int stepsTime = 2;
 
   CommandLine cmd;
   cmd.AddValue ("staManager", "PRC Manager of the STA", staManager);
