@@ -1,0 +1,222 @@
+<anim ver="netanim-3.108" filetype="animation" >
+<node id="0" sysId="0" locX="0" locY="10" />
+<node id="1" sysId="0" locX="5" locY="10" />
+<node id="2" sysId="0" locX="10" locY="10" />
+<node id="3" sysId="0" locX="0" locY="20" />
+<node id="4" sysId="0" locX="5" locY="20" />
+<node id="5" sysId="0" locX="0" locY="0" />
+<node id="6" sysId="0" locX="5" locY="0" />
+<node id="7" sysId="0" locX="10" locY="0" />
+<nu p="c" t="0" id="0" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="255" g="0" b="0" />
+<nu p="c" t="0" id="2" r="255" g="0" b="0" />
+<nu p="c" t="0" id="3" r="255" g="0" b="0" />
+<nu p="c" t="0" id="4" r="255" g="0" b="0" />
+<nu p="c" t="0" id="5" r="255" g="0" b="0" />
+<nu p="c" t="0" id="6" r="255" g="0" b="0" />
+<nu p="c" t="0" id="7" r="255" g="0" b="0" />
+<link fromId="0" toId="1" fd="10.1.1.1~00:00:00:00:00:01" td="10.1.1.2~00:00:00:00:00:02" ld="" />
+<nonp2plinkproperties id="0" ipAddress="10.1.3.4~00:00:00:00:00:0a" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="0" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="1" ipAddress="10.1.2.1~00:00:00:00:00:03" channelType="ns3::CsmaChannel" />
+<nonp2plinkproperties id="1" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="2" ipAddress="10.1.2.2~00:00:00:00:00:04" channelType="ns3::CsmaChannel" />
+<nonp2plinkproperties id="2" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="3" ipAddress="10.1.2.3~00:00:00:00:00:05" channelType="ns3::CsmaChannel" />
+<nonp2plinkproperties id="3" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="4" ipAddress="10.1.2.4~00:00:00:00:00:06" channelType="ns3::CsmaChannel" />
+<nonp2plinkproperties id="4" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="5" ipAddress="10.1.3.1~00:00:00:00:00:07" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="5" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="6" ipAddress="10.1.3.2~00:00:00:00:00:08" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="6" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="7" ipAddress="10.1.3.3~00:00:00:00:00:09" channelType="ns3::YansWifiChannel" />
+<nonp2plinkproperties id="7" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<ip n="0" >
+<address >10.1.1.1</address>
+
+<address >10.1.3.4</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="0" >
+<address >10.1.1.1</address>
+
+<address >10.1.3.4</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="0" >
+<address >10.1.1.1</address>
+
+<address >10.1.3.4</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.1.2.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.1.2.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="3" >
+<address >10.1.2.3</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="3" >
+<address >10.1.2.3</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="4" >
+<address >10.1.2.4</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="4" >
+<address >10.1.2.4</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="5" >
+<address >10.1.3.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="5" >
+<address >10.1.3.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="6" >
+<address >10.1.3.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="6" >
+<address >10.1.3.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="7" >
+<address >10.1.3.3</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="7" >
+<address >10.1.3.3</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ipv6 n="0" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="1" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="2" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="3" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="4" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="5" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="6" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="7" >
+<address >::1</address>
+
+</ipv6>
+<nu p="s" t="0" id="0" w="1" h="1" />
+<nu p="s" t="0" id="1" w="1" h="1" />
+<nu p="s" t="0" id="2" w="1" h="1" />
+<nu p="s" t="0" id="3" w="1" h="1" />
+<nu p="s" t="0" id="4" w="1" h="1" />
+<nu p="s" t="0" id="5" w="1" h="1" />
+<nu p="s" t="0" id="6" w="1" h="1" />
+<nu p="s" t="0" id="7" w="1" h="1" />
+<ncs ncId="0" n="RemainingEnergy" t="DOUBLE" />
+<nu p="p" t="1.553912411" id="7" x="10.84516282" y="2.113181172" />
+<pr uId="1" fId="0" fbTx="1.56809" meta-info="ns3::WifiMacHeader (MGT_BEACON ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:0a, BSSID=00:00:00:00:00:0a, FragNumber=0, SeqNumber=18) ns3::MgtProbeResponseHeader (ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=0|0|0, HT Capabilities=0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , HT Operation=0|0|0 , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0) ns3::WifiMacTrailer ()" />
+<wpr uId="1" tId="5" fbRx="1.568090029" lbRx="0" />
+<wpr uId="1" tId="6" fbRx="1.568090036" lbRx="0" />
+<wpr uId="1" tId="7" fbRx="1.568090044" lbRx="0" />
+<nu p="p" t="1.633984912" id="6" x="4.554637905" y="0.3726473762" />
+<nu p="p" t="1.654415377" id="5" x="-2.20755548" y="1.555593101" />
+<pr uId="2" fId="0" fbTx="1.67049" meta-info="ns3::WifiMacHeader (MGT_BEACON ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:0a, BSSID=00:00:00:00:00:0a, FragNumber=0, SeqNumber=19) ns3::MgtProbeResponseHeader (ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=0|0|0, HT Capabilities=0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , HT Operation=0|0|0 , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0) ns3::WifiMacTrailer ()" />
+<wpr uId="2" tId="5" fbRx="1.670490028" lbRx="0" />
+<wpr uId="2" tId="6" fbRx="1.670490035" lbRx="0" />
+<wpr uId="2" tId="7" fbRx="1.670490044" lbRx="0" />
+<pr uId="3" fId="0" fbTx="1.77289" meta-info="ns3::WifiMacHeader (MGT_BEACON ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:0a, BSSID=00:00:00:00:00:0a, FragNumber=0, SeqNumber=20) ns3::MgtProbeResponseHeader (ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=0|0|0, HT Capabilities=0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , HT Operation=0|0|0 , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0) ns3::WifiMacTrailer ()" />
+<wpr uId="3" tId="5" fbRx="1.772890027" lbRx="0" />
+<wpr uId="3" tId="6" fbRx="1.772890034" lbRx="0" />
+<wpr uId="3" tId="7" fbRx="1.772890043" lbRx="0" />
+<pr uId="4" fId="0" fbTx="1.87529" meta-info="ns3::WifiMacHeader (MGT_BEACON ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:0a, BSSID=00:00:00:00:00:0a, FragNumber=0, SeqNumber=21) ns3::MgtProbeResponseHeader (ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=0|0|0, HT Capabilities=0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , HT Operation=0|0|0 , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0) ns3::WifiMacTrailer ()" />
+<wpr uId="4" tId="5" fbRx="1.875290026" lbRx="0" />
+<wpr uId="4" tId="6" fbRx="1.875290033" lbRx="0" />
+<wpr uId="4" tId="7" fbRx="1.875290043" lbRx="0" />
+<nu p="p" t="1.905858773" id="7" x="10.9796972" y="3.104090098" />
+<nu p="p" t="1.948683891" id="5" x="-2.144543421" y="2.553605866" />
+<pr uId="5" fId="0" fbTx="1.97769" meta-info="ns3::WifiMacHeader (MGT_BEACON ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=0us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:0a, BSSID=00:00:00:00:00:0a, FragNumber=0, SeqNumber=22) ns3::MgtProbeResponseHeader (ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=0|0|0, HT Capabilities=0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , HT Operation=0|0|0 , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0) ns3::WifiMacTrailer ()" />
+<wpr uId="5" tId="5" fbRx="1.977690025" lbRx="0" />
+<wpr uId="5" tId="6" fbRx="1.977690032" lbRx="0" />
+<wpr uId="5" tId="7" fbRx="1.977690043" lbRx="0" />
+<nu p="p" t="1.982248959" id="6" x="3.862261533" y="1.0941839" />
+</anim>
