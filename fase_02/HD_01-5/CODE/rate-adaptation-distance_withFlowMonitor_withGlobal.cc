@@ -157,11 +157,15 @@ static ns3::GlobalValue g_shortGuardInterval ("shortGuardIntervalG",
                				 ns3::BooleanValue (false),
                				 ns3::MakeBooleanChecker());
 
-static ns3::GlobalValue g_staManager ("staManagerG",
+static ns3::GlobalValue g_ApStaManager ("ApStaManagerG",
 							 "Rate Adaptation algorithm",
                				 ns3::StringValue ("ns3::AarfWifiManager"),
                				 ns3::MakeStringChecker());
 
+static ns3::GlobalValue g_ap1_x ("ap1_xG",
+							 "Dist ap1_x",
+                              ns3::UintegerValue (0),
+                              ns3::MakeUintegerChecker<uint32_t> ());
 
 int main (int argc, char *argv[])
 {
@@ -170,7 +174,7 @@ int main (int argc, char *argv[])
   //std::string staManager = "ns3::MinstrelHtWifiManager";
   //std::string staManager = "ns3::AarfWifiManager";
   //std::string apManager = "ns3::MinstrelHtWifiManager";
-  std::string apManager = "ns3::AarfWifiManager";
+  //std::string apManager = "ns3::AarfWifiManager";
   //std::string standard = "802.11n-5GHz";
   std::string standard = "802.11a";
   //std::string outputFileName = "minstrelHT";
@@ -178,7 +182,7 @@ int main (int argc, char *argv[])
   uint32_t BE_MaxAmpduSize = 65535;
   //bool shortGuardInterval = false;
   uint32_t chWidth = 20;
-  int ap1_x = 0;
+ // int ap1_x = 0;
   int ap1_y = 0;
   int sta1_x = 5;
   int sta1_y = 0;
@@ -188,7 +192,7 @@ int main (int argc, char *argv[])
 
   CommandLine cmd;
    //cmd.AddValue ("staManager", "PRC Manager of the STA", staManager);
-  cmd.AddValue ("apManager", "PRC Manager of the AP", apManager);
+  //cmd.AddValue ("apManager", "PRC Manager of the AP", apManager);
   cmd.AddValue ("standard", "Wifi Phy Standard", standard);
   //cmd.AddValue ("shortGuardInterval", "Enable Short Guard Interval in all stations", shortGuardInterval);
   cmd.AddValue ("channelWidth", "Channel width of all the stations", chWidth);
@@ -198,7 +202,7 @@ int main (int argc, char *argv[])
   cmd.AddValue ("steps", "How many different distances to try", steps);
   cmd.AddValue ("stepsTime", "Time on each step", stepsTime);
   cmd.AddValue ("stepsSize", "Distance between steps", stepsSize);
-  cmd.AddValue ("AP1_x", "Position of AP1 in x coordinate", ap1_x);
+  //cmd.AddValue ("AP1_x", "Position of AP1 in x coordinate", ap1_x);
   cmd.AddValue ("AP1_y", "Position of AP1 in y coordinate", ap1_y);
   cmd.AddValue ("STA1_x", "Position of STA1 in x coordinate", sta1_x);
   cmd.AddValue ("STA1_y", "Position of STA1 in y coordinate", sta1_y);
@@ -218,9 +222,14 @@ int main (int argc, char *argv[])
 
   GlobalValue::GetValueByName ("shortGuardIntervalG", booleanValue);
   uint32_t shortGuardInterval = booleanValue.Get ();
-  GlobalValue::GetValueByName ("staManagerG", stringValue);
-  std::string staManager = stringValue.Get ();
-  
+  GlobalValue::GetValueByName ("ApStaManagerG", stringValue);
+  std::string ApStaManager = stringValue.Get ();
+  GlobalValue::GetValueByName ("ap1_xG", uintegerValue);
+  uint32_t ap1_x = uintegerValue.Get ();
+
+  std::string staManager = ApStaManager;
+  std::string apManager = ApStaManager;
+
   inputConfig.ConfigureAttributes ();
   
   int simuTime = steps * stepsTime;
@@ -406,8 +415,8 @@ static bool verbose = true;
 uint32_t m_bytesTotal=0;
 std::string dl_results,ul_results;
 std::string sshortGuardInterval = std::to_string (shortGuardInterval); 
-dl_results = "DL_Results_Sim_shortGuardInterval_" + sshortGuardInterval +"_staManager_" + staManager +".txt";
-ul_results = "UL_Results_Sim_shortGuardInterval_" + sshortGuardInterval +"_staManager_" + staManager +".txt";
+dl_results = "DL_Results_Sim_shortGuardIntervalG_" + sshortGuardInterval +"_ApStaManagerG_" + staManager +".txt";
+ul_results = "UL_Results_Sim_shortGuardIntervalG_" + sshortGuardInterval +"_ApStaManagerG_" + staManager +".txt";
 
 
 Ptr<OutputStreamWrapper> DLstreamMetricsInit = asciiTraceHelper.CreateFileStream((dl_results));
