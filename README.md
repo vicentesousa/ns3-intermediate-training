@@ -136,9 +136,9 @@ comentário
 **Instruções para o hands-on**
  - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
  - Fazer simulações variando:
- 	- Taxa oferecida: 100 e 500kpbs, 1, 10,  20, 40 Mbps;
+ 	- Taxa oferecida: 500kpbs, 1, 10, 50, 100, 200 Mbps;
  	- Número de STAs: 10;
-	- Tempo de simulação: 4, 60 e 100 segundos;
+	- Tempo de simulação: 4, 25 e 50 segundos;
 	- Simulation runs: 10, 50, 100, 500 e 1000 (só precisa rodar o 1000);
 	- STAs parados e posicionados aleatoriamente;
 	- Wi-Fi infraestruturado com 1 AP no centro de um grid retangular de 100x100m.
@@ -148,7 +148,7 @@ comentário
 	- (iii) Throughput médio dos STAs vs taxa oferecida para cada SimTime (3 curvas); 
 	- (iv) PLR médio dos STAs vs taxa oferecida para cada SimTime (3 curvas);
 	- (v) Repetir o plot (i), mas fazer com um SimTime específico para vários valores de Jobs. 
- - Análise deve ser feita apenas para **Downlink**.
+ - Análise deve ser feita apenas para **Downlink** e **Uplink**.
 
  - **Equipe de execução:** Daniel Flor (danielflor@ufrn.edu.br) e Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** 22/07/2019.
 
@@ -161,7 +161,7 @@ comentário
 **Instruções para o hands-on**
  - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
  - Fazer simulações variando:
-  - Taxa oferecida: 500kbps (depender da camada física);
+  - Taxa oferecida: 1.5Mbps (downlink) e 750kbps (uplink);
   - Número de STAs: 1, 2, 3, 4, 5, 6, 7, 8, 9 e 10;
   - Tempo de simulação: tempo de simulação e Jobs definidos pela campanha 1;
   - STAs parados e posicionados aleatoriamente.
@@ -182,7 +182,7 @@ comentário
 **Instruções para o hands-on**
  - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
  - Fazer simulações variando:
- 	- Taxa oferecida: 500kbps (depender da camada física);
+ 	- Taxa oferecida: 1.5Mbps (downlink) e 750kbps (uplink);
  	- Número de STAs: 1, 2, 3, 4, 5, 6, 7, 8, 9 e 10;
 	- Tempo de simulação: 500 segundos;
 	- Simulation runs: 1000;
