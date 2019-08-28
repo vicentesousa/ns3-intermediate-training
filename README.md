@@ -96,13 +96,13 @@ comentário
 
 **Divisão de Tarefas**
 
-**[Wi-Fi 802.11a](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifia.ipynb)** - **Equipe de execução:** Ravan Oliveira (ravan@ufrn.edu.br) e Malco Dantas (malco@ufrn.edu.br) - **Prazo:** 04/07/2019;
+**[Wi-Fi 802.11a](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifia.ipynb)** - **Equipe de execução:** Malco Dantas (malco@ufrn.edu.br) - **Prazo:** 04/07/2019;
 
-**[Wi-Fi 802.11b](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifib.ipynb)**  - **Equipe de execução:** Ravan Oliveira (ravan@ufrn.edu.br) e Malco Dantas (malco@ufrn.edu.br) - **Prazo:** 04/07/2019;
+**[Wi-Fi 802.11b](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifib.ipynb)**  - **Equipe de execução:** Ravan Oliveira (ravan@ufrn.edu.br) - **Prazo:** 04/07/2019;
 
-**[Wi-Fi 802.11g](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifig.ipynb)** - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) e Mateus Batista (mateus.gppcom@ufrn.edu.br). - **Prazo:** 04/07/2019;
+**[Wi-Fi 802.11g](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifig.ipynb)** - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) - **Prazo:** 04/07/2019;
 
-**[Wi-Fi 802.11n](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifin.ipynb)**  - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) e Mateus Batista (mateus.gppcom@ufrn.edu.br). - **Prazo:** 04/07/2019;
+**[Wi-Fi 802.11n](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifin.ipynb)**  - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) - **Prazo:** 04/07/2019;
 
 **[Wi-Fi 802.11ac](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifiac.ipynb)**  - **Equipe de execução:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 04/07/2019;
 
