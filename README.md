@@ -53,7 +53,6 @@
 **Objetivos**
 - Prática 01: envio de três pacotes de STAs diferentes;
 - Prática 02: uso do NetAnim para verificar o movimento dos usuários;
-- Prática 03: uso do exemplo **rate-adaptation-distance.cc**. 
 
 **Equipe de execução:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 02/05/2019;
 
@@ -77,9 +76,10 @@
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 
-### [Hands-on 06: Uso do exemplo rate-adpdation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_06/f01_hd06.ipynb)
+### [Hands-on 06: Uso do exemplo rate-adaptation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_06/f01_hd06.ipynb)
 **Objetivos**
-- Prática 01: uso do GNUPlot para visualizar a janela de congestionamento.
+- Descrever o exemplo rate-adaptation-distance.cc.
+- Gerar o gráfico Throughput vs. Distância para os valores padrões do script.
 
 **Equipe de execução:** Jéssika (jessie@ufrn.edu.br);
 
