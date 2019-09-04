@@ -76,6 +76,15 @@
 **Equipe de execução:** Daniel Flor (danielflor@ufrn.edu.br) - **Prazo:** 02/05/2019;
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
+
+### [Hands-on 06: Uso do exemplo rate-adpdation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_06/f01_hd06.ipynb)
+**Objetivos**
+- Prática 01: uso do GNUPlot para visualizar a janela de congestionamento.
+
+**Equipe de execução:** Jéssika (jessie@ufrn.edu.br);
+
+**Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br).
+
 <!---
 comentário
 -->
@@ -197,3 +206,34 @@ comentário
  - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br), Malco Dantas (malco@ufrn.edu.br) e Ravan Oliveira (ravan@ufrn.edu.br)  - **Prazo:** 22/07/2019.
 
 - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** 24/07/2019.
+
+## Ferramentas Complementares
+
+Série de Hands-on que descreve as ferramentas, problemas e soluções encontrados ao longo do desenvolvimento do treinamento ns-3-intermediate-training.
+
+### [Hands-on 1: Uso do Núcleo de Processamento de Alto Desempenho - NPAD (UFRN)](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/ferramentas_complementares/HD_01/fc_hd01.ipynb)
+
+**Objetivos**
+ - Simulando no supercomputador (NPAD) da UFRN.
+ 
+**Instruções para o hands-on**
+ - Básico de instalação do ns-3 indo até o “hello simulator”;
+ - Listagem de problemas/soluções já enfrentados;
+ - Boas práticas.
+
+ - **Equipe de execução:** Todo o time contribuirá para o desenvolvimento deste hands-on. **Prazo:** 17/09/2019.
+ 
+ 
+ - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** 24/09/2019.
+ 
+### [Hands-on 2: Criação e uso de *patch* para distribuição de código modificado](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/ferramentas_complementares/HD_02/fc_hd02.ipynb)
+
+**Objetivos**
+ - Criação e uso da ferramenta de alteração/atualização *patch*.
+ 
+**Instruções para o hands-on**
+ - A definir
+
+ - **Equipe de execução:** A definir.
+ 
+  - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** -/-/-.
