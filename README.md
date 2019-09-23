@@ -186,7 +186,7 @@ comentário
 
 ### [Hands-on 04: Campanha 3](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_04/f02_hd04.ipynb)
 **Objetivos**
- - Analisar o comportamento de diferentes algoritimos de adaptação de taxa com o aumento do número de STAs (tráfego oferecido constante).
+ - Analisar o comportamento de diferentes algoritmos de adaptação de taxa com o aumento do número de STAs (tráfego oferecido constante).
 
 **Instruções para o hands-on**
  - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
@@ -206,6 +206,69 @@ comentário
  - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br), Malco Dantas (malco@ufrn.edu.br) e Ravan Oliveira (ravan@ufrn.edu.br)  - **Prazo:** 22/07/2019.
 
 - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** 24/07/2019.
+
+## Fase III: Avaliação do DCF e EDCA no Wi-Fi
+
+### [Hands-on 01: Campanha 1](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_03/HD_01/f03_hd01.ipynb)
+**Objetivos**
+ - Avaliar o comportamento de diferentes algoritmos de adaptação de taxa com o aumento do número de STAs (tráfego oferecido constante) e da distância.
+
+**Instruções para o hands-on**
+ - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
+ - Fazer simulações variando:
+ 	- Algoritmos de adaptação de taxa: MinstrelHtWifiManager e ConstantRateWifiManager;
+ 	- Camada PHY: 802.11ac;
+ 	- Grid: 20m x 20m; 
+ 	- Número de STAs: variando de 1 a 10;
+ 	- Simulation runs: 1000 Jobs;
+ 	- STAs parados e posicionados aleatoriamente a cada Job (AP no centro);
+ 	- Taxa oferecida: valor máximo da camada PHY escolhida;
+	- Tempo de simulação: 200 segundos;
+ - Estudo 1 (semelhante a Fase 02: campanha 0): 
+ 	- Comparação de Throughput vs distância dos algoritmos de adaptação de taxa;
+ 	- Variar distância de de 10 a 200 m de 5 em 5 metros (tentar mostrar bem o gráfico em escada do controle de taxa);
+ - Estudo 2: 
+ 	- Comparação de Throughput vs número de STAs com o usando os algoritmos de adaptação de taxa;
+ 	- STAs distribuídas em um raio igual a 15 metros, com taxa de transmissão de 1.5Mbps;
+ - Análise deve ser feita para **Downlink** e **Uplink**.
+
+ - **Equipe de execução:** Jéssika Cristina (jessie@ufrn.edu.br), Ravan Oliveira (ravan@ufrn.edu.br) e Daniel Flor (danielflor@ufrn.edu.br)  - **Prazo:** 09/10/2019.
+
+- **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Prazo:** 16/10/2019.
+
+
+### [Hands-on 02: Campanha 2](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_03/HD_02/f03_hd02.ipynb)
+**Objetivos**
+ - Comparar DCF com EDCA em uma configuração com múltiplos serviços en cada STA tenha quatro streams de tráfego com diferentes QoS tags: AC_VO, AC_VI, AC_BE e AC_BK (WifiQosTag);
+
+**Instruções para o hands-on**
+ - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
+ - Fazer simulações variando:
+ 	- Algoritmos de adaptaçãode taxa: MinstrelHtWifiManager;
+ 	- Camada PHY: 802.11ac (5GHz);
+ 	- Cada streams consistindo de pacotes de 1500 bytes de payload com 100 kbps de tráfego CBR;
+ 	- Grid: 20m x 20m; 
+ 	- Número de STAs: variando de 1 a 30;
+ 	- Simulation runs: 100 Jobs (mínimo);
+ 	- STAs parados e posicionados aleatoriamente a cada Job (AP no centro);
+ 	- Taxa oferecida: valor máximo da camada PHY escolhida;
+ 	- Tempo de simulação: 200 segundos;
+ - Estudo 1: 
+ 	- Throughput separado por serviço com 95% de intervalo de confiança;
+ 	- Carga de usuários: variando de 1 a 30;
+ - Estudo 2: 
+ 	- PLR separado por serviço com 95% de intervalo de confiança;
+ 	- Carga de usuários: variando de 1 a 30;
+ - Estudo 3: 
+ 	- Atrasos separado por serviço com 95% de intervalo de confiança;
+ 	- Carga de usuários: variando de 1 a 30.
+ - Repetir estudos do TCC do Rodrigo;
+ - Análise deve ser feita para **Downlink** e **Uplink**.
+
+ - **Equipe de execução:** Daniel Luna (danielro@ufrn.edu.br), Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) e Daniel Flor (danielflor@ufrn.edu.br)  - **Prazo:** 16/10/2019.
+
+- **Equipe de revisão:** Jéssika Cristina (jessie@ufrn.edu.br) e Daniel Flor (danielflor@ufrn.edu.br) - **Prazo:** 23/10/2019.
+
 
 ## Ferramentas Complementares
 
