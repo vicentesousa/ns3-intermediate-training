@@ -3,7 +3,7 @@
 ### Equipe
  - Idealizador/Orientador: Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br)
  - Coordenador: MSc. Daniel Luna (danielro@ufrn.edu.br)  
- - Equipe técnica: Daniel Luna (danielro@ufrn.edu.br), Daniel Flor (danielflor@ufrn.edu.br), Jéssika Cristina (jessie@ufrn.edu.br), Ravan Oliveira (ravan@ufrn.edu.br), Malco Dantas (malco@ufrn.edu.br), Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) e Mateus Batista (mateus.gppcom@ufrn.edu.br).
+ - Equipe técnica: Daniel Luna (danielro@ufrn.edu.br), Daniel Flor (danielflor@ufrn.edu.br), Jéssika Cristina (jessie@ufrn.edu.br), Ravan Oliveira (ravan@ufrn.edu.br), Malco Dantas (malco@ufrn.edu.br), Lucas Ismael (lucasismael.gppcom@ufrn.edu.br).
 
 
 ## Fase 00: Preparação do ambiente de trabalho (prazo: 28/04/2019)
@@ -117,7 +117,7 @@ comentário
 
 **[Wi-Fi 802.11ax](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01/f02_hd01_wifiax.ipynb)**  - **Equipe de execução:** Daniel Flor (danielflor@ufrn.edu.br) - **Prazo:** 04/07/2019;
 
-**Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 08/07/2019;
+**Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Última Atualização:** 07/2019.
 
 
 ### [Hands-on 1.5: FlowMonitor, campanhas e plotagem de gráficos](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_01-5/f02_hd01-5.ipynb)
@@ -132,9 +132,9 @@ comentário
  - Simular os diversos cenários, variando os parâmetros necessários para um número definido de Jobs;
  - Plotar os gráficos utilizando o Matlab (Licença Educacional LabSim/DCO - UFRN).
 
- - **Equipe de execução:** Daniel Luna (danielro@ufrn.edu.br) - **Prazo:** 11/07/2019;
+ - **Equipe de execução:** Daniel Luna (danielro@ufrn.edu.br).
 
- **Equipe de revisão:** Daniel Flor (danielflor@ufrn.edu.br) e Jéssika Cristina (jessie@ufrn.edu.br)  - **Prazo:** 15/07/2019;
+ **Equipe de revisão:** Daniel Flor (danielflor@ufrn.edu.br) e Jéssika Cristina (jessie@ufrn.edu.br) - **Última Atualização:** 07/2019.
 
 ### [Hands-on 02: Campanha 1](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_02/f02_hd02.ipynb)
 **Objetivos**
@@ -159,32 +159,12 @@ comentário
 	- (v) Repetir o plot (i), mas fazer com um SimTime específico para vários valores de Jobs. 
  - Análise deve ser feita apenas para **Downlink** e **Uplink**.
 
- - **Equipe de execução:** Daniel Flor (danielflor@ufrn.edu.br) e Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** 22/07/2019.
+ - **Equipe de execução:** Daniel Flor (danielflor@ufrn.edu.br) e Daniel Luna (danielro@ufrn.edu.br).
 
-- **Equipe de revisão:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 24/07/2019.
+- **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Última Atualização:** --/--.
 
 ### [Hands-on 03: Campanha 2](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_03/f02_hd03.ipynb)
-**Objetivos**
- - Analisar o comportamento do sistema com o aumento do número de STAs (tráfego oferecido constante).
 
-**Instruções para o hands-on**
- - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
- - Fazer simulações variando:
-  - Taxa oferecida: 1.5Mbps (downlink) e 750kbps (uplink);
-  - Número de STAs: 1, 2, 3, 4, 5, 6, 7, 8, 9 e 10;
-  - Tempo de simulação: tempo de simulação e Jobs definidos pela campanha 1;
-  - STAs parados e posicionados aleatoriamente.
- - Plots:
-	- (i) Throughput vs # de STAs;; 
-	- (ii) PLR vs # de STAs;;
-	- (iii) User satisfaction vs # de STAs. 
- - Análise deve ser feita para **Downlink** e **Uplink**.
-
- - **Equipe de execução:** Jéssika Cristina (jessie@ufrn.edu.br) e Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** 22/07/2019.
-
-- **Equipe de revisão:** Daniel Flor - **Prazo:** 24/07/2019.
-
-### [Hands-on 04: Campanha 3](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_02/HD_04/f02_hd04.ipynb)
 **Objetivos**
  - Analisar o comportamento de diferentes algoritmos de adaptação de taxa com o aumento do número de STAs (tráfego oferecido constante).
 
@@ -203,15 +183,16 @@ comentário
  	- (iii) user satisfaction vs # de STAs;
  - Análise deve ser feita para **Downlink** e **Uplink**.
 
- - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br), Malco Dantas (malco@ufrn.edu.br) e Ravan Oliveira (ravan@ufrn.edu.br)  - **Prazo:** 22/07/2019.
+ - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) e Ravan Oliveira (ravan@ufrn.edu.br).
+ 
 
-- **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** 24/07/2019.
+- **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Última Atualização:** 10/2019.
 
 ## Fase III: Avaliação do DCF e EDCA no Wi-Fi
 
 ### [Hands-on 01: Campanha 1](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_03/HD_01/f03_hd01.ipynb)
 **Objetivos**
- - Avaliar o comportamento de diferentes algoritmos de adaptação de taxa com o aumento do número de STAs (tráfego oferecido constante) e da distância.
+ - Avaliar o comportamento do terminal escondido no ns-3
 
 **Instruções para o hands-on**
  - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
@@ -232,9 +213,9 @@ comentário
  	- STAs distribuídas em um raio igual a 15 metros, com taxa de transmissão de 1.5Mbps;
  - Análise deve ser feita para **Downlink** e **Uplink**.
 
- - **Equipe de execução:** Jéssika Cristina (jessie@ufrn.edu.br), Ravan Oliveira (ravan@ufrn.edu.br) e Daniel Flor (danielflor@ufrn.edu.br)  - **Prazo:** 09/10/2019.
+ - **Equipe de execução:** Ravan Oliveira (ravan@ufrn.edu.br).
 
-- **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Prazo:** 16/10/2019.
+- **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Última Atualização:** --/--.
 
 
 ### [Hands-on 02: Campanha 2](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_03/HD_02/f03_hd02.ipynb)
@@ -265,9 +246,9 @@ comentário
  - Repetir estudos do TCC do Rodrigo;
  - Análise deve ser feita para **Downlink** e **Uplink**.
 
- - **Equipe de execução:** Daniel Luna (danielro@ufrn.edu.br), Lucas Ismael (lucasismael.gppcom@ufrn.edu.br) e Daniel Flor (danielflor@ufrn.edu.br)  - **Prazo:** 16/10/2019.
+ - **Equipe de execução:** Lucas Ismael (lucasismael.gppcom@ufrn.edu.br).
 
-- **Equipe de revisão:** Jéssika Cristina (jessie@ufrn.edu.br) e Daniel Flor (danielflor@ufrn.edu.br) - **Prazo:** 23/10/2019.
+- **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Última Atualização:** 03/2020.
 
 
 ## Ferramentas Complementares
@@ -287,7 +268,7 @@ Série de Hands-on que descreve as ferramentas, problemas e soluções encontrad
  - **Equipe de execução:** Todo o time contribuirá para o desenvolvimento deste hands-on. **Prazo:** 17/09/2019.
  
  
- - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** 24/09/2019.
+ - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Última Atualização:** 09/2019.
  
 ### [Hands-on 2: Criação e uso de *patch* para distribuição de código modificado](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/ferramentas_complementares/HD_02/fc_hd02.ipynb)
 
