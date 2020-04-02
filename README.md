@@ -127,7 +127,7 @@ comentário
  - Analisar o comportamento do sistema com o aumento do **número de Jobs da simulação**;
 
 **Instruções para o hands-on**
- - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
+ - Utilizar os scripts de criação das campanhas das Ferramentas Complementares Hands-on 1;
  - Fazer simulações variando:
  	- Taxa oferecida: 500kpbs, 1, 10, 50, 100, 200 Mbps;
  	- Número de STAs: 10;
@@ -153,7 +153,7 @@ comentário
  - Analisar o comportamento de diferentes algoritmos de adaptação de taxa com o aumento do número de STAs (tráfego oferecido constante).
 
 **Instruções para o hands-on**
- - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
+ - Utilizar os scripts de criação das campanhas das Ferramentas Complementares Hands-on 1;
  - Fazer simulações variando:
  	- Taxa oferecida: 1.5Mbps (downlink) e 750kbps (uplink);
  	- Número de STAs: 1, 2, 3, 4, 5, 6, 7, 8, 9 e 10;
@@ -179,7 +179,7 @@ comentário
  - Avaliar o comportamento do terminal escondido no ns-3
 
 **Instruções para o hands-on**
- - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
+ - Utilizar os scripts de criação das campanhas das Ferramentas Complementares Hands-on 1;
  - Fazer simulações variando:
  	- Algoritmos de adaptação de taxa: MinstrelHtWifiManager e ConstantRateWifiManager;
  	- Camada PHY: 802.11ac;
@@ -207,7 +207,7 @@ comentário
  - Comparar DCF com EDCA em uma configuração com múltiplos serviços en cada STA tenha quatro streams de tráfego com diferentes QoS tags: AC_VO, AC_VI, AC_BE e AC_BK (WifiQosTag);
 
 **Instruções para o hands-on**
- - Utilizar os scripts de criação das campanhas da Fase 02 - Hands-on 1.5;
+ - Utilizar os scripts de criação das campanhas das Ferramentas Complementares Hands-on 1;
  - Fazer simulações variando:
  	- Algoritmos de adaptaçãode taxa: MinstrelHtWifiManager;
  	- Camada PHY: 802.11ac (5GHz);
