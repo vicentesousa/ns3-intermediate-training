@@ -2,22 +2,29 @@
 
 ### Equipe
  - Idealizador/Orientador: Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br)
- - Coordenador: MSc. Daniel Luna (danielro@ufrn.edu.br)  
- - Equipe técnica: Daniel Luna (danielro@ufrn.edu.br), Daniel Flor (danielflor@ufrn.edu.br), Jéssika Cristina (jessie@ufrn.edu.br), Ravan Oliveira (ravan@ufrn.edu.br), Malco Dantas (malco@ufrn.edu.br), Lucas Ismael (lucasismael.gppcom@ufrn.edu.br).
+ - Coordenador: MSc. Daniel Luna (daniel.luna.088@ufrn.edu.br)
+ - Equipe técnica: Daniel Luna (daniel.luna.088@ufrn.edu.br), Tarciana Guerra (tarcianabrito@ufrn.edu.br), Daniel Flor (danielflor@ufrn.edu.br), Jéssika Cristina (jessie@ufrn.edu.br), Ravan Oliveira (ravan@ufrn.edu.br), Malco Dantas (malco@ufrn.edu.br), Lucas Ismael (lucasismael.gppcom@ufrn.edu.br), Ricardo Queiroz (ricardo.queiroz.105@ufrn.edu.br) e Dário Macedo (dario.macedo.129@ufrn.edu.br)
 
+Última Atualização: 13/09/2021
 
-## Fase 00: Preparação do ambiente de trabalho (prazo: 28/04/2019)
+## Fase 00: Preparação do ambiente de trabalho
+
+### [Hands-on 00: Tutorial de Instalação e configuração da máquina virtual UBUNTU 18.04](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_00/h00_VM_18.04.ipynb)
+**Objetivos**
+- Instalar VMWare no Windows;
+- Baixar e criar máquina virtual Ubuntu 18.04 no Windows.
+
 
 ### [Hands-on 01: Github - o básico sobre repositórios](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_01/f00_hd01.ipynb)
 **Objetivos**
-- Cadastramento no GitHub
-- Criar repositorios no GitHub
-- Submeter arquivos para repositórios do GitHub
-- Editar o README.md
+- Cadastramento no GitHub;
+- Criar repositorios no GitHub;
+- Submeter arquivos para repositórios do GitHub;
+- Editar o README.md.
 
 ### [Hands-on 02: Básico do Jupyter Notebook](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_02/f00_hd02.ipynb)
 **Objetivos**
-- Baixar, abrir, editar e criar Notebooks que executem blocos de código de Python (Python 3)
+- Baixar, abrir, editar e criar Notebooks que executem blocos de código de Python (Python 3);
 - Converter notebooks do Jupyter para PDF.
 
 ### [Hands-on 03: Instalando o ns-3 e integrando com o Eclipse](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_03/f00_hd03.ipynb)
@@ -30,8 +37,8 @@
 
 ### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_01/f01_hd01.ipynb)
 **Objetivos**
-- Prática 01: envio de dois pacotes de tamanhos diferentes
-- Prática 02: mudança na taxa de transmissão
+- Prática 01: envio de dois pacotes de tamanhos diferentes;
+- Prática 02: mudança na taxa de transmissão.
 
 **Equipe de execução:** Ravan Oliveira (ravan@ufrn.edu.br) e Malco Dantas (malco@ufrn.edu.br) - **Prazo:** 02/05/2019;
 
@@ -52,7 +59,7 @@
 ### [Hands-on 03: Desafios relacionados ao exemplo third.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_03/f01_hd03.ipynb)
 **Objetivos**
 - Prática 01: envio de três pacotes de STAs diferentes;
-- Prática 02: uso do NetAnim para verificar o movimento dos usuários;
+- Prática 02: uso do NetAnim para verificar o movimento dos usuários.
 
 **Equipe de execução:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 02/05/2019;
 
@@ -76,9 +83,20 @@
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 
-### [Hands-on 06: Uso do exemplo rate-adaptation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_06/f01_hd06.ipynb)
+
+### [Hands-on 06: Uso dos exemplos sixth.cc e seventh.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_06/f01_hd06.ipynb)
 **Objetivos**
-- Descrever o exemplo rate-adaptation-distance.cc.
+- Descrever os exemplos sixth.cc e seventh.cc;
+- Gerar o gráfico do seventh.cc.
+
+**Equipe de execução:** Ricardo Queiroz (ricardo.queiroz.105@ufrn.edu.br) e Dário Macedo (dario.macedo.129@ufrn.edu.br);
+
+**Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Tarciana Guerra (tarcianabrito@ufrn.edu.br).
+
+
+### [Hands-on 07: Uso do exemplo rate-adaptation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_01/HD_07/f01_hd07.ipynb)
+**Objetivos**
+- Descrever o exemplo rate-adaptation-distance.cc;
 - Gerar o gráfico Throughput vs. Distância para os valores padrões do script.
 
 **Equipe de execução:** Jéssika (jessie@ufrn.edu.br);
@@ -124,7 +142,7 @@ comentário
 **Objetivos**
  - Analisar o comportamento do sistema com o aumento do **tráfego oferecido**;
  - Analisar o comportamento do sistema com o aumento da **duração da simulação**;
- - Analisar o comportamento do sistema com o aumento do **número de Jobs da simulação**;
+ - Analisar o comportamento do sistema com o aumento do **número de Jobs da simulação**.
 
 **Instruções para o hands-on**
  - Utilizar os scripts de criação das campanhas das Ferramentas Complementares Hands-on 1;
@@ -176,7 +194,7 @@ comentário
 
 ### [Hands-on 01: Campanha 1](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_03/HD_01/f03_hd01.ipynb)
 **Objetivos**
- - Avaliar o comportamento do terminal escondido no ns-3
+ - Avaliar o comportamento do terminal escondido no ns-3.
 
 **Instruções para o hands-on**
  - Utilizar os scripts de criação das campanhas das Ferramentas Complementares Hands-on 1;
@@ -204,7 +222,7 @@ comentário
 
 ### [Hands-on 02: Campanha 2](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_03/HD_02/f03_hd02.ipynb)
 **Objetivos**
- - Comparar DCF com EDCA em uma configuração com múltiplos serviços en cada STA tenha quatro streams de tráfego com diferentes QoS tags: AC_VO, AC_VI, AC_BE e AC_BK (WifiQosTag);
+ - Comparar DCF com EDCA em uma configuração com múltiplos serviços en cada STA tenha quatro streams de tráfego com diferentes QoS tags: AC_VO, AC_VI, AC_BE e AC_BK (WifiQosTag).
 
 **Instruções para o hands-on**
  - Utilizar os scripts de criação das campanhas das Ferramentas Complementares Hands-on 1;
