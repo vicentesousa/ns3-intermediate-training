@@ -153,15 +153,15 @@ comentário
 -->
 ## Para continuar com as campanhas de investigação de desempenho do Wi-Fi: 
 
-- ### [Treinamento Wi-Fi](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Wi-Fi/README.md) 
+- ### [Treinamento Wi-Fi](https://github.com/vicentesousa/ns3-intermediate-training/tree/icTraining/Wi-Fi) 
 
 ## Para continuar com as campanhas de investigação de desempenho do LTE: 
 
-- ### [Treinamento LTE](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/LTE/README.md) 
+- ### [Treinamento LTE](https://github.com/vicentesousa/ns3-intermediate-training/tree/icTraining/LTE) 
 
 ## Ferramentas Complementares
 
-Série de Hands-on que descreve as ferramentas, problemas e soluções encontrados ao longo do desenvolvimento do treinamento ns-3-intermediate-training.
+Série de Hands-on que descrevem as ferramentas, problemas e soluções encontrados ao longo do desenvolvimento do treinamento ns-3-intermediate-training.
 
 
 ### [Hands-on 1: FlowMonitor, campanhas e plotagem de gráficos](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/ferramentas_complementares/HD_01/fc_hd01.ipynb)
