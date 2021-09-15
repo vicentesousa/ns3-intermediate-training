@@ -7,6 +7,37 @@
 
 Última Atualização: 13/09/2021
 
+
+### Recomendações gerais do GppCom
+
+- No seu e-mail principal Criar uma assinatura do e-mail no padrão do GppCom, como no exemplo a seguir:
+
+```
+---------------------------------------------
+Lucas Ismael Campos Medeiros
+Graduando em Engenharia de Telecomunicações
+Universidade Federal do Rio Grande do Norte (UFRN)
+Natal, Rio Grande do Norte
+Email: lucasismael.gppcom@ufrn.edu.br | lucasismaelcm@gmail.com
+Tel: (84) 9 9669-2432
+```
+
+Fazer automaticamente no gmail de acordo com a figura a seguir:
+
+![fig_email](e-mail_signature.png)
+
+- Comunicação corporativa
+   - Mandar e-mail para lista quando o assunto for de interesse de todos: labsim-ufrn@googlegroups.com
+   - Usar Whatsapp para notícias rápidas e compartilhamento de material técnico/oportunidades de cunho geral. E.g., avisar que mandou e-mail importante 
+   - Grupos do Whatsapp
+      - Grupo geral LabSim/GppCom: com todos os ex-bolsistas
+      - Grupo vinculado a linha de pesquisa somente com o prof. Vicente e os participantes do grupo
+   - **Evitar se comunicar (whatsapp, e-mail) somente com o prof. Vicente ou com um membro da equipe (TODOS DA EQUIPE ESPECIFICA PRECISAM SER COPIADOS EM TODAS AS MENSAGENS. Até as mensagens bobas!!!!)** 
+
+- Criar conta do github com seu e-mail ```ufrn.edu.br```;
+- Direcionar (forward) os e-mails da sua conta ```ufrn.edu.br``` para o seu e-mail principal do Gmail, caso já não seja o ```ufrn.edu.br```.
+
+
 ## Fase 00: Preparação do ambiente de trabalho
 
 ### [Hands-on 00: Tutorial de Instalação e configuração da máquina virtual UBUNTU 18.04](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/fase_00/HD_00/h00_VM_18.04.ipynb)
