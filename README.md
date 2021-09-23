@@ -75,7 +75,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 2: entender o exemplo first.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf);
 
-#### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_01/f01_hd01.ipynb)
+- #### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_01/f01_hd01.ipynb)
 **Objetivos**
 - Prática 01: envio de dois pacotes de tamanhos diferentes;
 - Prática 02: mudança na taxa de transmissão.
@@ -88,7 +88,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 4: fazer e entender o exemplo second.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
 
-#### [Hands-on 02: Desafios relacionados ao exemplo second.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_02/f01_hd02.ipynb)
+- #### [Hands-on 02: Desafios relacionados ao exemplo second.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_02/f01_hd02.ipynb)
 **Objetivos**
 - Prática 01: envio de dois pacotes de tamanhos diferentes sem criar novos objetos;
 - Prática 02: aumentar número de nós via linha de comando;
@@ -100,7 +100,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 5: fazer e entender o exemplo third.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
 
-#### [Hands-on 03: Desafios relacionados ao exemplo third.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_03/f01_hd03.ipynb)
+- #### [Hands-on 03: Desafios relacionados ao exemplo third.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_03/f01_hd03.ipynb)
 **Objetivos**
 - Prática 01: envio de três pacotes de STAs diferentes;
 - Prática 02: uso do NetAnim para verificar o movimento dos usuários.
@@ -111,7 +111,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 6: ler capítulo 7 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
 
-#### [Hands-on 04: Desafios relacionados ao exemplo third.cc parte 2](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_04/f01_hd04.ipynb)
+- #### [Hands-on 04: Desafios relacionados ao exemplo third.cc parte 2](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_04/f01_hd04.ipynb)
 **Objetivos**
 - Prática 01: Mudar modelo de mobilidade, plotar as posições das STAs com o GNUPlot.
 
@@ -120,7 +120,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 **Equipe de revisão:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 12/05/2019.
 
 
-#### [Hands-on 05: Desafios relacionados ao exemplo fifth.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_05/f01_hd05.ipynb)
+- #### [Hands-on 05: Desafios relacionados ao exemplo fifth.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_05/f01_hd05.ipynb)
 **Objetivos**
 - Prática 01: uso do GNUPlot para visualizar a janela de congestionamento.
 
@@ -130,7 +130,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 7: ler capítulo 8 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
 
-#### [Hands-on 06: Uso dos exemplos sixth.cc e seventh.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_06/f01_hd06.ipynb)
+- #### [Hands-on 06: Uso dos exemplos sixth.cc e seventh.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_06/f01_hd06.ipynb)
 **Objetivos**
 - Descrever os exemplos sixth.cc e seventh.cc;
 - Gerar o gráfico do seventh.cc.
@@ -139,7 +139,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Tarciana Guerra (tarcianabrito@ufrn.edu.br).
 
-#### [Hands-on 07: Uso do exemplo rate-adaptation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_07/f01_hd07.ipynb)
+- #### [Hands-on 07: Uso do exemplo rate-adaptation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_07/f01_hd07.ipynb)
 **Objetivos**
 - Descrever o exemplo rate-adaptation-distance.cc;
 - Gerar o gráfico Throughput vs. Distância para os valores padrões do script.
@@ -161,49 +161,6 @@ comentário
 
 ## Ferramentas Complementares
 
-Série de Hands-on que descrevem as ferramentas, problemas e soluções encontrados ao longo do desenvolvimento do treinamento ns-3-intermediate-training.
+Hands-on que descrevem as ferramentas, problemas e soluções encontrados ao longo do desenvolvimento do treinamento ns-3-intermediate-training.
 
-
-### [Hands-on 1: FlowMonitor, campanhas e plotagem de gráficos](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/ferramentas_complementares/HD_01/fc_hd01.ipynb)
-**Objetivos**
- - Usar o FlowMonitor no ns-3;
- - Campanhas de Simulação;
- - Plotagem de Gráficos usando o Matlab (Licença Educacional LabSim/DCO - UFRN).
-
-**Instruções para o hands-on**
- - Descrever a inserção do FlowMonitor em um script do ns-3 (pode ser do Wi-Fi).
- - Criação das campanhas de simulação (um *.sh*) por meio de um script do Matlab (Licença Educacional LabSim/DCO - UFRN);
- - Simular os diversos cenários, variando os parâmetros necessários para um número definido de Jobs;
- - Plotar os gráficos utilizando o Matlab (Licença Educacional LabSim/DCO - UFRN).
-
- - **Equipe de execução:** Daniel Luna (danielro@ufrn.edu.br).
-
- **Equipe de revisão:** Daniel Flor (danielflor@ufrn.edu.br) e Jéssika Cristina (jessie@ufrn.edu.br) - **Última Atualização:** 07/2019.
-
-
-### [Hands-on 2: Uso do Núcleo de Processamento de Alto Desempenho - NPAD (UFRN)](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/ferramentas_complementares/HD_02/fc_hd02.ipynb)
-
-**Objetivos**
- - Simulando no supercomputador (NPAD) da UFRN.
- 
-**Instruções para o hands-on**
- - Básico de instalação do ns-3 indo até o “hello simulator”;
- - Listagem de problemas/soluções já enfrentados;
- - Boas práticas.
-
- - **Equipe de execução:** Todo o time contribuirá para o desenvolvimento deste hands-on. **Prazo:** 17/09/2019.
- 
- 
- - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Última Atualização:** 09/2019.
- 
-### [Hands-on 3: Criação e uso de *patch* para distribuição de código modificado](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/ferramentas_complementares/HD_03/fc_hd03.ipynb)
-
-**Objetivos**
- - Criação e uso da ferramenta de alteração/atualização *patch*.
- 
-**Instruções para o hands-on**
- - A definir
-
- - **Equipe de execução:** A definir.
- 
-  - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br)- **Prazo:** -/-/-.
+- ### [Ferramentas Complementares](https://github.com/vicentesousa/ns3-intermediate-training/tree/icTraining/ferramentas_complementares)
