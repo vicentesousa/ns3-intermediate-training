@@ -33,8 +33,20 @@ Série de Hands-on que descrevem as ferramentas, problemas e soluções encontra
  
  
  - **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) - **Última Atualização:** 09/2019.
+
+### [Hands-on 3: Tráfego de Poisson no ns-3](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/ferramentas_complementares/HD_03/fc_hd03.ipynb)
+
+**Objetivos**
+ - Implementar o tráfego de poisson no ns-3;
+ - Implementar o Callback para captura de métricas;
+ - Plotar o tráfego de poisson;
+ - Resolver os desafios.
+
+ - **Equipe de execução:** Daniel Rodrigues de Luna (daniel.luna.088@ufrn.edu.br) e Vicente Angelo de Sousa Junior (vicente.sousa@ufrn.br).
  
-### [Hands-on 3: Criação e uso de *patch* para distribuição de código modificado](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/ferramentas_complementares/HD_03/fc_hd03.ipynb)
+ - **Equipe de revisão:**  Daniel Rodrigues de Luna (daniel.luna.088@ufrn.edu.br) e Vicente Angelo de Sousa Junior (vicente.sousa@ufrn.br).
+ 
+### [Hands-on 4: Criação e uso de *patch* para distribuição de código modificado](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/ferramentas_complementares/HD_03/fc_hd03.ipynb)
 
 **Objetivos**
  - Criação e uso da ferramenta de alteração/atualização *patch*.
