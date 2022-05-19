@@ -67,7 +67,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 ### [Hands-on 04: Instalando o ns-3 e integrando com o VSCode](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_00/HD_04/f01_hd04.ipynb)
 **Objetivos**
 - Instalar o ns-3 e dependências;
-- Integrar o ns-3 com o eclipse.
+- Integrar o ns-3 com o VSCode.
 
 ## Fase I: Desafios relacionados ao tutorial
 
