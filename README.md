@@ -78,7 +78,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 **Equipe de execução:** Vicente Jr. (vicente.sousa@ufrn.edu.br) 
 
-### [Hands-on 04: Instalando o ns-3 (cmake) e integrando com o VSCode](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_00/HD_05/f00_hd05.ipynb)
+### [Hands-on 05: Instalando o ns-3 (cmake) e integrando com o VSCode](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_00/HD_05/f00_hd05.ipynb)
 **Objetivos**
 - Instalar o ns-3 (cmake) e dependências;
 - Integrar o ns-3 (cmake) com o VSCode.
