@@ -40,34 +40,50 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ## Fase 00: Preparação do ambiente de trabalho
 
-### [Hands-on 00: Tutorial de Instalação e configuração da máquina virtual UBUNTU 18.04](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_00/HD_00/h00_VM_18.04.ipynb)
+### [Hands-on 00: Tutorial de Instalação e configuração da máquina virtual UBUNTU 18.04](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_00/HD_00/h00_VM_18.04.ipynb)
 **Objetivos**
 - Se habituar Linux, com Github, com jupyter notebook, com ns-3 e com o Eclipse
 - Instalar VMWare no Windows;
 - Baixar e criar máquina virtual Ubuntu 18.04 no Windows.
 
+**Equipe de execução:** Vicente Jr. (vicente.sousa@ufrn.edu.br)
 
-### [Hands-on 01: Github - o básico sobre repositórios](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_00/HD_01/f00_hd01.ipynb)
+### [Hands-on 01: Github - o básico sobre repositórios](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_00/HD_01/f00_hd01.ipynb)
 **Objetivos**
 - Cadastramento no GitHub;
 - Criar repositorios no GitHub;
 - Submeter arquivos para repositórios do GitHub;
 - Editar o README.md.
 
-### [Hands-on 02: Básico do Jupyter Notebook](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_00/HD_02/f00_hd02.ipynb)
+**Equipe de execução:** Vicente Jr. (vicente.sousa@ufrn.edu.br)
+
+### [Hands-on 02: Básico do Jupyter Notebook](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_00/HD_02/f00_hd02.ipynb)
 **Objetivos**
 - Baixar, abrir, editar e criar Notebooks que executem blocos de código de Python (Python 3);
 - Converter notebooks do Jupyter para PDF.
 
-### [Hands-on 03: Instalando o ns-3 e integrando com o Eclipse](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_00/HD_03/f00_hd03.ipynb)
+**Equipe de execução:** Vicente Jr. (vicente.sousa@ufrn.edu.br)
+
+### [Hands-on 03: Instalando o ns-3 (waf) e integrando com o Eclipse](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_00/HD_03/f00_hd03.ipynb)
 **Objetivos**
 - Instalar o ns-3 e dependências;
 - Integrar o ns-3 com o eclipse.
 
-### [Hands-on 04: Instalando o ns-3 e integrando com o VSCode](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_00/HD_04/f01_hd04.ipynb)
+**Equipe de execução:** Daniel Luna (daniel.luna.088@ufrn.edu.br)
+
+### [Hands-on 04: Instalando o ns-3 (waf) e integrando com o VSCode](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_00/HD_04/f00_hd04.ipynb)
 **Objetivos**
 - Instalar o ns-3 e dependências;
 - Integrar o ns-3 com o VSCode.
+
+**Equipe de execução:** Vicente Jr. (vicente.sousa@ufrn.edu.br) 
+
+### [Hands-on 04: Instalando o ns-3 (cmake) e integrando com o VSCode](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_00/HD_05/f00_hd05.ipynb)
+**Objetivos**
+- Instalar o ns-3 (cmake) e dependências;
+- Integrar o ns-3 (cmake) com o VSCode.
+
+**Equipe de execução:** Dário Macedo (dario.macedo.129@ufrn.edu.br)
 
 ## Fase I: Desafios relacionados ao tutorial
 
@@ -79,7 +95,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 2: entender o exemplo first.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf);
 
-- #### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_01/f01_hd01.ipynb)
+- #### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_01/f01_hd01.ipynb)
 **Objetivos**
 - Prática 01: envio de dois pacotes de tamanhos diferentes;
 - Prática 02: mudança na taxa de transmissão.
@@ -92,7 +108,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 4: fazer e entender o exemplo second.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
 
-- #### [Hands-on 02: Desafios relacionados ao exemplo second.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_02/f01_hd02.ipynb)
+- #### [Hands-on 02: Desafios relacionados ao exemplo second.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_02/f01_hd02.ipynb)
 **Objetivos**
 - Prática 01: envio de dois pacotes de tamanhos diferentes sem criar novos objetos;
 - Prática 02: aumentar número de nós via linha de comando;
@@ -104,7 +120,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 5: fazer e entender o exemplo third.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
 
-- #### [Hands-on 03: Desafios relacionados ao exemplo third.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_03/f01_hd03.ipynb)
+- #### [Hands-on 03: Desafios relacionados ao exemplo third.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_03/f01_hd03.ipynb)
 **Objetivos**
 - Prática 01: envio de três pacotes de STAs diferentes;
 - Prática 02: uso do NetAnim para verificar o movimento dos usuários.
@@ -115,7 +131,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 6: ler capítulo 7 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
 
-- #### [Hands-on 04: Desafios relacionados ao exemplo third.cc parte 2](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_04/f01_hd04.ipynb)
+- #### [Hands-on 04: Desafios relacionados ao exemplo third.cc parte 2](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_04/f01_hd04.ipynb)
 **Objetivos**
 - Prática 01: Mudar modelo de mobilidade, plotar as posições das STAs com o GNUPlot.
 
@@ -124,7 +140,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 **Equipe de revisão:** Jéssika Cristina (jessie@ufrn.edu.br) - **Prazo:** 12/05/2019.
 
 
-- #### [Hands-on 05: Desafios relacionados ao exemplo fifth.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_05/f01_hd05.ipynb)
+- #### [Hands-on 05: Desafios relacionados ao exemplo fifth.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_05/f01_hd05.ipynb)
 **Objetivos**
 - Prática 01: uso do GNUPlot para visualizar a janela de congestionamento.
 
@@ -134,7 +150,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ### Atividade 7: ler capítulo 8 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
 
-- #### [Hands-on 06: Uso dos exemplos sixth.cc e seventh.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_06/f01_hd06.ipynb)
+- #### [Hands-on 06: Uso dos exemplos sixth.cc e seventh.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_06/f01_hd06.ipynb)
 **Objetivos**
 - Descrever os exemplos sixth.cc e seventh.cc;
 - Gerar o gráfico do seventh.cc.
@@ -143,7 +159,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Tarciana Guerra (tarcianabrito@ufrn.edu.br).
 
-- #### [Hands-on 07: Uso do exemplo rate-adaptation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/Basic/fase_01/HD_07/f01_hd07.ipynb)
+- #### [Hands-on 07: Uso do exemplo rate-adaptation-distance.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_07/f01_hd07.ipynb)
 **Objetivos**
 - Descrever o exemplo rate-adaptation-distance.cc;
 - Gerar o gráfico Throughput vs. Distância para os valores padrões do script.
@@ -157,14 +173,14 @@ comentário
 -->
 ## Para continuar com as campanhas de investigação de desempenho do Wi-Fi: 
 
-- ### [Treinamento Wi-Fi](https://github.com/vicentesousa/ns3-intermediate-training/tree/icTraining/Wi-Fi) 
+- ### [Treinamento Wi-Fi](https://github.com/vicentesousa/ns3-intermediate-training/tree/master/Wi-Fi) 
 
 ## Para continuar com as campanhas de investigação de desempenho do LTE: 
 
-- ### [Treinamento LTE](https://github.com/vicentesousa/ns3-intermediate-training/tree/icTraining/LTE) 
+- ### [Treinamento LTE](https://github.com/vicentesousa/ns3-intermediate-training/tree/master/LTE) 
 
 ## Ferramentas Complementares
 
 Hands-on que descrevem as ferramentas, problemas e soluções encontrados ao longo do desenvolvimento do treinamento ns-3-intermediate-training.
 
-- ### [Ferramentas Complementares](https://github.com/vicentesousa/ns3-intermediate-training/tree/icTraining/ferramentas_complementares)
+- ### [Ferramentas Complementares](https://github.com/vicentesousa/ns3-intermediate-training/tree/master/ferramentas_complementares)
