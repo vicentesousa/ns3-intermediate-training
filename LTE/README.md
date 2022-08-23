@@ -121,16 +121,16 @@ As atividades dos bolsistas serão divididas em três frentes:
 
 ## Frente 2: prototipagem do 4G com ns-3
    ### **Atividade 2.1**: Entender e explicar em um jupyter notebook o Basic simulation program (https://www.nsnam.org/docs/models/html/lte-user.html): LTE-only sem EPC. O ipynb deve ter o seguinte conteúdo: [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd01.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd01.ipynb)
-   **Objetivos:** 
-   - **C1**: explicar cada parte do script **lena-simple.cc**;
-   - **C2**: explicar como incluir parâmetros de configuração via linha de comando (ver Seção Configuration of LTE model parameters);
-   - **C3**: explicar como usar o ConfigStore para grava e carregar parâmetros de ua simulação;
-   - **C4**: Habilitar, gravar e explicar cada arquivo de saída da simulação (ver Seção Simulation Output). Entender e explicar no ipynb cada coluna dos arquivos de saída da simulação. Explicar como manipular a pasta de saída dos resultados. Ver scritp **lena-rlc-traces.cc**.
-   
-   **Status:**
-   - Ricardo: **Prazo:** 20/08/2021.  **Feito:** 03/09/2021.     
-   - Dario: **Prazo:** 20/08/2021.  **Feito:** 03/09/2021.
-   - Eriberto: **Prazo:** . **Feito:** . 
+      **Objetivos:** 
+      - **C1**: explicar cada parte do script **lena-simple.cc**;
+      - **C2**: explicar como incluir parâmetros de configuração via linha de comando (ver Seção Configuration of LTE model parameters);
+      - **C3**: explicar como usar o ConfigStore para grava e carregar parâmetros de ua simulação;
+      - **C4**: Habilitar, gravar e explicar cada arquivo de saída da simulação (ver Seção Simulation Output). Entender e explicar no ipynb cada coluna dos arquivos de saída da simulação. Explicar como manipular a pasta de saída dos resultados. Ver scritp **lena-rlc-traces.cc**.
+      
+      **Status:**
+      - Ricardo: **Prazo:** 20/08/2021.  **Feito:** 03/09/2021.     
+      - Dario: **Prazo:** 20/08/2021.  **Feito:** 03/09/2021.
+      - Eriberto: **Prazo:** . **Feito:** . 
    
    ### **Atividade 2.2**: Entender, simular e plotar o fading traces [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd02.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd02.ipynb)
       **Objetivos:**
