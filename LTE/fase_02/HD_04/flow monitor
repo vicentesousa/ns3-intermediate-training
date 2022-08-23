@@ -1,0 +1,241 @@
+/*
+    * To check what was installed in the memory, i.e., BWPs of eNb Device, and its configuration.
+    * Example is: Node 1 -> Device 0 -> BandwidthPartMap -> {0,1} BWPs -> NrGnbPhy -> NrPhyMacCommong-> Numerology, Bandwidth, ...
+     GtkConfigStore config;
+     config.ConfigureAttributes ();
+     */
+
+    // Print per-flow statistics
+    monitor->CheckForLostPackets();
+    Ptr<Ipv4FlowClassifier> classifier = DynamicCast<Ipv4FlowClassifier>(flowmonHelper.GetClassifier());
+    FlowMonitor::FlowStatsContainer stats = monitor->GetFlowStats();
+
+    double averageFlowThroughput = 0.0;
+    double averageFlowDelay = 0.0;
+
+    /*
+     std::ofstream outFile;
+     std::string filename = outputDir + "/" + simTag;
+     outFile.open (filename.c_str (), std::ofstream::out | std::ofstream::trunc);
+     if (!outFile.is_open ())
+     {
+     std::cerr << "Can't open file " << filename << std::endl;
+     return 1;
+     }
+
+     outFile.setf (std::ios_base::fixed);
+     */
+
+    for (std::map<FlowId, FlowMonitor::FlowStats>::const_iterator i = stats.begin(); i != stats.end(); ++i) {
+        Ipv4FlowClassifier::FiveTuple t = classifier->FindFlow(i->first);
+        std::stringstream protoStream;
+        protoStream << (uint16_t) t.protocol;
+        if (t.protocol == 6) {
+            protoStream.str("TCP");
+        }
+        if (t.protocol == 17) {
+            protoStream.str("UDP");
+        }
+        /*outFile << "Flow " << i->first << " (" << t.sourceAddress << ":" << t.sourcePort << " -> " << t.destinationAddress << ":" << t.destinationPort << ") proto " << protoStream.str () << "\n";
+         outFile << "  Tx Packets: " << i->second.txPackets << "\n";
+         outFile << "  Tx Bytes:   " << i->second.txBytes << "\n";
+         outFile << "  TxOffered:  " << i->second.txBytes * 8.0 / (simTime - udpAppStartTime) / 1000 / 1000  << " Mbps\n";
+         outFile << "  Rx Bytes:   " << i->second.rxBytes << "\n";*/
+        std::cout << "Flow " << i->first << " (" << t.sourceAddress << ":" << t.sourcePort << " -> " << t.destinationAddress << ":" << t.destinationPort << ") proto " << protoStream.str() << "\n";
+        std::cout << "  Tx Packets: " << i->second.txPackets << "\n";
+        std::cout << "  Tx Bytes:   " << i->second.txBytes << "\n";
+        std::cout << "  TxOffered:  " << i->second.txBytes * 8.0 / (simTime - appStartTime) / 1000 / 1000 << " Mbps\n";
+        std::cout << "  Rx Bytes:   " << i->second.rxBytes << std::endl;
+
+        if (i->second.rxPackets > 0) {
+            // Measure the duration of the flow from receiver's perspective
+            //double rxDuration = i->second.timeLastRxPacket.GetSeconds () - i->second.timeFirstTxPacket.GetSeconds ();
+            double rxDuration = (simTime - appStartTime);
+
+            averageFlowThroughput += i->second.rxBytes * 8.0 / rxDuration / 1000 / 1000;
+            averageFlowDelay += 1000 * i->second.delaySum.GetSeconds() / i->second.rxPackets;
+
+            /*outFile << "  Throughput: " << i->second.rxBytes * 8.0 / rxDuration / 1000 / 1000  << " Mbps\n";
+             outFile << "  Mean delay:  " << 1000 * i->second.delaySum.GetSeconds () / i->second.rxPackets << " ms\n";
+             //outFile << "  Mean upt:  " << i->second.uptSum / i->second.rxPackets / 1000/1000 << " Mbps \n";
+             outFile << "  Mean jitter:  " << 1000 * i->second.jitterSum.GetSeconds () / i->second.rxPackets  << " ms\n";*/
+            std::cout << "  Throughput:  " << i->second.rxBytes * 8.0 / rxDuration / 1000 / 1000 << " Mbps\n";
+            std::cout << "  Mean delay:  " << 1000 * i->second.delaySum.GetSeconds() / i->second.rxPackets << " ms\n";
+            //std::cout << "  Mean upt:  " << i->second.uptSum / i->second.rxPackets / 1000/1000 << " Mbps \n";
+            std::cout << "  Mean jitter:  " << 1000 * i->second.jitterSum.GetSeconds() / i->second.rxPackets << " ms\n";
+
+        } else {
+            /*outFile << "  Throughput:  0 Mbps\n";
+             outFile << "  Mean delay:  0 ms\n";
+             outFile << "  Mean jitter: 0 ms\n";*/
+            std::cout << "  Throughput:  0 Mbps\n";
+            std::cout << "  Mean delay:  0 ms\n";
+            std::cout << "  Mean jitter: 0 ms\n";
+        }
+        //outFile << "  Rx Packets: " << i->second.rxPackets << "\n";
+        std::cout << "  Rx Packets: " << i->second.rxPackets << std::endl;
+    }
+
+    /*outFile << "\n\n  Mean flow throughput: " << averageFlowThroughput / stats.size () << "\n";
+     outFile << "  Mean flow delay: " << averageFlowDelay / stats.size () << "\n";*/
+
+    std::cout << "\n  Mean flow throughput: " << averageFlowThroughput / stats.size() << "\n";
+    std::cout << "  Mean flow delay: " << averageFlowDelay / stats.size() << "\n";
+
+    std::string dl_results, ul_results, dl_results2, ul_results2;
+    dl_results = outputDir + "/" + "DL_" + NameFile + ".txt";
+    ul_results = outputDir + "/" + "UL_" + NameFile + ".txt";
+    //dl_results2 = outputDir2 + "/" + "DL_" + NameFile + ".txt";
+    //ul_results2 = outputDir2 + "/" + "UL_" + NameFile + ".txt";
+
+    Ptr<OutputStreamWrapper> DLstreamMetricsInit = asciiTraceHelper.CreateFileStream((dl_results));
+    *DLstreamMetricsInit->GetStream()
+            << "Flow_ID, Lost_Packets, Tx_Packets, Tx_Bytes, TxOffered(Mbps),  Rx_Packets, Rx_Bytes, T_put(Mbps), Mean_Delay_Rx_Packets, Mean_Jitter, Packet_Loss_Ratio"
+            << std::endl;
+
+    Ptr<OutputStreamWrapper> ULstreamMetricsInit = asciiTraceHelper.CreateFileStream((ul_results));
+    *ULstreamMetricsInit->GetStream()
+            << "Flow_ID, Lost_Packets, Tx_Packets, Tx_Bytes, TxOffered(Mbps),  Rx_Packets, Rx_Bytes, T_put(Mbps), Mean_Delay_Rx_Packets, Mean_Jitter, Packet_Loss_Ratio"
+            << std::endl;
+
+    double statDurationTX = 0;
+    double statDurationRX = 0;
+    //Ptr<Ipv4FlowClassifier> classifier = DynamicCast<Ipv4FlowClassifier>(flowHelper.GetClassifier());
+    //std::map<FlowId, FlowMonitor::FlowStats> stats = flowMonitor->GetFlowStats();
+    uint16_t DlPort = 1234;
+    uint16_t UlPort = DlPort + numEnbs * numUes + 1;
+    for (std::map<FlowId, FlowMonitor::FlowStats>::const_iterator iter = stats.begin(); iter != stats.end(); ++iter) {
+        // some metrics calculation
+        statDurationRX = iter->second.timeLastRxPacket.GetSeconds() - iter->second.timeFirstTxPacket.GetSeconds();
+        statDurationTX = iter->second.timeLastTxPacket.GetSeconds()- iter->second.timeFirstTxPacket.GetSeconds();
+
+        double meanDelay, meanJitter, packetLossRatio, txTput, rxTput; //,NavComsumption,NavModemComsumption;
+        if (iter->second.rxPackets > 0) {
+            meanDelay = (iter->second.delaySum.GetSeconds() / iter->second.rxPackets);
+        } else // this value is set to zero because the STA is not receiving any packet
+        {
+            meanDelay = 0;
+        }
+        //
+        if (iter->second.rxPackets > 1) {
+            meanJitter = (iter->second.jitterSum.GetSeconds() / (iter->second.rxPackets - 1));
+        } else // this value is set to zero because the STA is not receiving any packet
+        {
+            meanJitter = 0;
+        }
+        //
+        if (statDurationTX > 0) {
+            txTput = iter->second.txBytes * 8.0 / statDurationTX / 1000 / 1000;
+        } else {
+            txTput = 0;
+        }
+        //
+        if (statDurationRX > 0) {
+            rxTput = iter->second.rxBytes * 8.0 / statDurationRX / 1000 / 1000;
+        } else {
+            rxTput = 0;
+        }
+        //
+        if ((iter->second.lostPackets > 0) & (iter->second.rxPackets > 0)) {
+            packetLossRatio = (double) (iter->second.lostPackets / (double) (iter->second.rxPackets + iter->second.lostPackets));
+        } else {
+            packetLossRatio = 0;
+        }
+        /*if(iter->first == auv.Get(0)->GetId()){
+         NavComsumption = energyModel->GetTotalEnergyConsumption ();
+         NavModemComsumption = basicSourcePtr ->GetInitialEnergy() - basicSourcePtr -> GetRemainingEnergy();
+         }else{
+         NavComsumption=0;
+         NavModemComsumption=0;
+         }*/
+        //
+        Ipv4FlowClassifier::FiveTuple t = classifier->FindFlow(iter->first);
+        //
+        Ptr<OutputStreamWrapper> streamMetricsInit = NULL;
+        // Get file pointer for DL, if DL flow (using port and IP address to assure correct result)
+        std::cout << "\nFlow: " << iter->first << std::endl;
+        std::cout << "  t destination port " << t.destinationPort << std::endl;
+        std::cout << "  source address " << internetIpIfaces.GetAddress(1) << std::endl;
+        std::cout << "  t source address " << t.sourceAddress << std::endl;
+        std::cout << "  t destination port " << t.destinationPort << std::endl;
+        std::cout << "  sink address " << ueIpIface.GetAddress(0) << std::endl;
+        std::cout << "  t destination address " << t.destinationAddress << "\n";
+        if ((t.destinationPort == DlPort) || (t.sourceAddress == remoteHostAddr)) {
+            streamMetricsInit = DLstreamMetricsInit;
+            DlPort++;
+        }
+        // Get file pointer for UL, if UL flow (using port and IP address to assure correct result))
+        //else if ((t.destinationPort == UlPort)
+        else if ((t.destinationPort == UlPort) || (t.destinationAddress == remoteHostAddr)) {
+            streamMetricsInit = ULstreamMetricsInit;
+            UlPort++;
+        }
+        //
+        if (streamMetricsInit) {
+
+            *streamMetricsInit->GetStream() << (iter->first) << ", "
+                    << (iter->second.lostPackets) << ", "
+                    //
+                    << (iter->second.txPackets) << ", "
+                    //
+                    << (iter->second.txBytes) << ", "
+                    //
+                    << txTput << ", "
+                    //
+                    << (iter->second.rxPackets) << ", "
+                    //
+                    << (iter->second.rxBytes) << ", "
+                    //
+                    << rxTput << ", "
+                    //
+                    << meanDelay << ", "
+                    //
+                    << meanJitter << ", "
+                    //
+                    << packetLossRatio
+                    //
+                    //<< NavComsumption << ", "
+                    //
+                    //<< NavModemComsumption
+                    //
+                    << std::endl;
+        } else {
+            //TODO: chance for an ASSERT
+            if (true) {
+                std::cout << "Some problem to save metrics" << std::endl;
+                std::cout << "Flow ID: " << iter->first << ", Source Port: " << t.sourcePort << ", Destination Port: "
+                          << t.destinationPort << " (" << t.sourceAddress
+                          << " -> " << t.destinationAddress << ")" << std::endl;
+                std::cout << "gNB Address: " << t.destinationAddress << std::endl;
+                std::cout << "DLport: " << t.sourcePort << std::endl;
+                std::cout << "ULport: " << t.destinationPort << std::endl;
+            }
+        }
+
+        //m_bytesTotal =+ iter->second.rxPackets;
+    }
+
+    src.open(dl_results, std::ios::in | std::ios::binary);
+    dst.open(dl_results2, std::ios::out | std::ios::binary);
+    dst << src.rdbuf();
+
+    src.close();
+    dst.close();
+
+    src.open(ul_results, std::ios::in | std::ios::binary);
+    dst.open(ul_results2, std::ios::out | std::ios::binary);
+    dst << src.rdbuf();
+
+    src.close();
+    dst.close();
+
+    /*outFile.close ();
+
+     std::ifstream f (filename.c_str ());
+
+     if (f.is_open ())
+     {
+     std::cout << f.rdbuf ();
+     }
+     */
+    toc();

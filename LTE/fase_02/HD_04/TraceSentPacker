@@ -1,0 +1,44 @@
+NS_LOG_COMPONENT_DEFINE("LenaSimpleEpc");
+std::ofstream m_TxTraceFile;
+std::string m_TxTraceFileName;
+
+void TraceSentPacket(std::string context, Ptr<const Packet> m_txTrace) {
+//Vector position = model->GetPosition ();
+//NS_LOG_UNCOND (context << "Time Tx: "
+//              << Simulator::Now ().GetSeconds ()
+//              << " Packet = " << m_txTrace);
+	if (!m_TxTraceFile.is_open()) {
+		m_TxTraceFileName = "TxSentTrace.txt";
+		m_TxTraceFile.open(m_TxTraceFileName.c_str());
+		m_TxTraceFile << "Time" << std::endl;
+
+		if (!m_TxTraceFile.is_open()) {
+			NS_FATAL_ERROR("Could not open tracefile");
+		}
+	}
+
+	m_TxTraceFile << Simulator::Now() << std::endl;
+}
+// To be used in tic toc time counter
+clock_t startTimer;
+time_t beginTimer;
+
+// Implementation of tic, i.e., start time counter
+void tic() {
+	beginTimer = time(&beginTimer);
+	struct tm *timeinfo;
+	timeinfo = localtime(&beginTimer);
+	std::cout << "simulation start at: " << asctime(timeinfo) << std::endl;
+}
+// implementation of toc, i.e., stop time counter
+    double toc() {
+	time_t finishTimer = time(&finishTimer);
+	double simTime = difftime(finishTimer, beginTimer) / 60.0;
+	struct tm *timeinfo;
+	timeinfo = localtime(&finishTimer);
+	std::cout << "simulation finished at: " << asctime(timeinfo) << std::endl;
+	//
+	std::cout << "Time elapsed: " << simTime << " minutes" << std::endl;
+	//
+	return simTime;
+}

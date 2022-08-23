@@ -1,0 +1,68 @@
+#include "ns3/core-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/mobility-module.h"
+#include "ns3/config-store-module.h"
+#include "ns3/lte-module.h"
+#include <ns3/string.h>
+#include <fstream>
+#include <ns3/buildings-helper.h>
+#include "ns3/flow-monitor-module.h"
+#include "ns3/flow-monitor-helper.h"
+#include "ns3/flow-probe.h"
+
+using namespace std;
+using namespace ns3;
+
+string fadingEnd = "/home/ricardo/ns-3/ns-allinone-3.35/ns-3.35/src/lte/model/fading-traces/fading_trace_ETU_3kmph.fad";
+string lambda = "0.25";
+uint32_t packetSize = 125;
+uint16_t numEnbs = 1;
+uint16_t numUes = 1;
+double appStartTime = 0.01;
+double simTime = 10.0;
+std::string ssimTime = to_string(simTime);
+std::string snumEnbs = to_string(numEnbs);
+std::string snumUes = to_string(numUes);
+Time interPacketInterval = MilliSeconds(100);
+double radius = 10.0;
+double distance = 20;
+bool useUdp = false;
+bool usePoisson = true;
+bool useShadowing = false;
+bool useFading = true;
+bool useDl = true;
+bool useUl = false;
+bool usePl = false;
+bool verbose = false;
+
+std::string outputDir = "./";
+std::string outputDir2 = "Results/";
+std::string NameFile;
+
+std::ifstream src;
+std::fstream dst;
+
+NameFile = "SimTime" + ssimTime + "ueNum" + snumUes + "enbNum" + snumEnbs;
+
+// Command line arguments
+CommandLine cmd;
+cmd.AddValue("lambda", "Lambda to be used in the model traffic", numEnbs);
+cmd.AddValue("packetSize", "Packet size (in bytes) to be used in the traffic with poisson distribution", packetSize);
+cmd.AddValue("numEnbs", "Number of eNodeBs", numEnbs);
+cmd.AddValue("numUes", "Number of UE", numUes);
+cmd.AddValue("simTime", "Total duration of the simulation", simTime);
+cmd.AddValue("distance", "Distance between eNBs [m]", distance);
+cmd.AddValue("interPacketInterval", "Inter packet interval",interPacketInterval);
+cmd.AddValue("radius", "Radius of the UE's distribution circle", radius);
+cmd.AddValue("distance", "Distance between eNodeBs", distance);
+cmd.AddValue("useUdp", "Use classic Udp traffic in the application",useUdp);
+cmd.AddValue("usePoisson", "Allow use of poisson distribution in the application", usePoisson);
+cmd.AddValue("useShadowing", "Disable the shadowing parameter of the propagation loss model", useShadowing);
+cmd.AddValue("useFading", "Disable the shadowing parameter of the propagation loss model", useFading);
+cmd.AddValue("useDl", "Disable downlink data flows", useDl);
+cmd.AddValue("useUl", "Disable uplink data flows", useUl);
+cmd.AddValue("usePl", "Disable data flows between peer UEs", usePl);
+cmd.AddValue("verbose", "Allow debug LOGs", verbose);
+cmd.Parse(argc, argv);
