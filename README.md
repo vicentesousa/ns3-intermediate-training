@@ -87,13 +87,13 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 ## Fase I: Desafios relacionados ao tutorial
 
-### Atividade 1: ler os capítulos 1, 2, 4 e 5 do tutorial do ns-3
-- **Material Principal:** an introduction into downloading, setting up, and using builtin models [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf)
-- **Material Complementar:**  documentation on individual protocol and device models that build on the ns-3 core [Model Library do ns-3](https://www.nsnam.org/docs/release/3.33/models/ns-3-model-library.pdf)
-- **Material Complementar:** an in-depth coverage of the architecture and core of ns-3 [Manual do ns-3](https://www.nsnam.org/docs/release/3.33/manual/ns-3-manual.pdf)
-- Todo esse material pode ser encontrado em [https://www.nsnam.org/releases/ns-3-33/documentation/](https://www.nsnam.org/releases/ns-3-33/documentation/)
+### Atividade 1: ler os capítulos 1, 2, 4, 5 e 6 do tutorial do ns-3
+- **Material Principal:** an introduction into downloading, setting up, and using builtin models [Tutorial ns-3](https://www.nsnam.org/docs/release/3.37/tutorial/ns-3-tutorial.pdf)
+- **Material Complementar:**  documentation on individual protocol and device models that build on the ns-3 core [Model Library do ns-3](https://www.nsnam.org/docs/release/3.37/models/ns-3-model-library.pdf)
+- **Material Complementar:** an in-depth coverage of the architecture and core of ns-3 [Manual do ns-3](https://www.nsnam.org/docs/release/3.37/manual/ns-3-manual.pdf)
+- Todo esse material pode ser encontrado em [https://www.nsnam.org/releases/ns-3-33/documentation/](https://www.nsnam.org/releases/ns-3-37/documentation/)
 
-### Atividade 2: entender o exemplo first.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf);
+### Atividade 2: entender o exemplo first.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.37/tutorial/ns-3-tutorial.pdf);
 
 - #### [Hands-on 01: Desafios relacionados ao exemplo first.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_01/f01_hd01.ipynb)
 **Objetivos**
@@ -104,9 +104,9 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 
-### Atividade 3: ler capítulo 6 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
+### Atividade 3: ler capítulo 7 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.37/tutorial/ns-3-tutorial.pdf).
 
-### Atividade 4: fazer e entender o exemplo second.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
+### Atividade 4: fazer e entender o exemplo second.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.37/tutorial/ns-3-tutorial.pdf).
 
 - #### [Hands-on 02: Desafios relacionados ao exemplo second.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_02/f01_hd02.ipynb)
 **Objetivos**
@@ -118,7 +118,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 
-### Atividade 5: fazer e entender o exemplo third.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
+### Atividade 5: fazer e entender o exemplo third.cc e acompanhar a leitura no [Tutorial ns-3](https://www.nsnam.org/docs/release/3.37/tutorial/ns-3-tutorial.pdf).
 
 - #### [Hands-on 03: Desafios relacionados ao exemplo third.cc](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_03/f01_hd03.ipynb)
 **Objetivos**
@@ -129,7 +129,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 
-### Atividade 6: ler capítulo 7 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
+### Atividade 6: ler capítulo 8 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.37/tutorial/ns-3-tutorial.pdf).
 
 - #### [Hands-on 04: Desafios relacionados ao exemplo third.cc parte 2](http://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_04/f01_hd04.ipynb)
 **Objetivos**
@@ -148,7 +148,7 @@ Fazer automaticamente no gmail de acordo com a figura a seguir:
 
 **Equipe de revisão:** Daniel Luna (danielro@ufrn.edu.br) e Prof. Vicente Sousa (vicente.sousa@ufrn.edu.br) - **Prazo:** 06/05/2019.
 
-### Atividade 7: ler capítulo 8 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.33/tutorial/ns-3-tutorial.pdf).
+### Atividade 7: ler capítulo 9 do [Tutorial ns-3](https://www.nsnam.org/docs/release/3.37/tutorial/ns-3-tutorial.pdf).
 
 - #### [Hands-on 06: Uso dos exemplos sixth.cc e seventh.cc](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/Basic/fase_01/HD_06/f01_hd06.ipynb)
 **Objetivos**
