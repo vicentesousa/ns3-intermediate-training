@@ -130,7 +130,7 @@ As atividades dos bolsistas serão divididas em três frentes:
       - Dario: **Prazo:** 20/08/2021.  **Feito:** 03/09/2021.
       - Eriberto: **Prazo:** . **Feito:** . 
    
-   ### **Atividade 2.2**: Entender, simular e plotar o fading traces [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd02.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd02.ipynb)
+   ### **Atividade 2.2**: Entender, simular e plotar o fading traces [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_02/f02_hd02.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_02/f02_hd02.ipynb)
       **Objetivos:**
       - **C1**: Ler e explicar resumidamente os efeitos da Fading (diferenciar desvanecimentos plano e seletivo em frequência. Diferenciar desvanecimentos lento e rápido. Talvez valha a pena assistir as aulas da UNIDADE I de Comunicações Móveis. Prof. Vicente pode disponibilizar os vídeos)
       - **C2**: Explicar como gerar os arquivo de fading via Matlab (**/lte/model/fading-traces/fading-trace-generator.m**). Ver seção Fading Traces Generation.
@@ -141,7 +141,7 @@ As atividades dos bolsistas serão divididas em três frentes:
       - Dario: **Prazo:** TBD .  **Feito:** 24/09/2021.
       - Eriberto: **Prazo:** . **Feito:** . 
    
-   ### **Atividade 2.3**: Entender, simular e plotar o REM (Radio Environment Maps) [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd03.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd03.ipynb)
+   ### **Atividade 2.3**: Entender, simular e plotar o REM (Radio Environment Maps) [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_03/f02_hd03.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_03/f02_hd03.ipynb)
       **Objetivos:**
       - **C1**: Explicar o que é o REM e para que ele serve
       - **C2**: Explicar o **script lena-rem.cc** e plotar o REM 
@@ -152,7 +152,7 @@ As atividades dos bolsistas serão divididas em três frentes:
       - Dario: **Prazo:** TBD .  **Feito:** 06/10/2021.
       - Eriberto: **Prazo:** . **Feito:** . 
    
-   ### **Atividade 2.4**: Entender, simular e plotar um cenário LTE + EPC [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd04.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_01/f02_hd04.ipynb)
+   ### **Atividade 2.4**: Entender, simular e plotar um cenário LTE + EPC [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_04/f02_hd04.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_04/f02_hd04.ipynb)
       **Objetivos**:
       - **C1**: Explicar cada parte do script **lena-simple-epc.cc**. Ver Seção Evolved Packet Core (EPC)
       - **c2**: Cenário apenas com 1 eNB e 1 UE. Adicionar o fast fading e shadowing. 
