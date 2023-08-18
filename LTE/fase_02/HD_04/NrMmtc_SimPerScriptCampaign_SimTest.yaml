@@ -1,0 +1,75 @@
+# ns-3 script configuration
+ns3Parameters:
+
+    ns3_path:  /home/marilia/ns-allinone-3.36.1/ns-3.36.1 # Complete path of ns-3 simulator
+    ns3_script: mylena-simple-epc   # Script with the main code (inside scratch folder without .cc)
+    cluster_path: /home/mcmuniz/ns-allinone-3.36.1/ns-3.36.1/ #MUDAR
+    CampaignTag: CampaignLte_EPC          # Output filename
+    simLocation: intel-256            # Set location of simulation (local or cluster)
+
+# Shell Script Parameters configuration
+ShellScriptParameters: 
+    
+    nOfCurlines: 3      # number of Campaign Lines
+    SimTied: 0
+    nOfCurlinesTied: 0  # if greater than nOfCurlines, means that campaignX is included
+    daytime: 1          # number of days to simulate (only for cluster simulation) 
+    htime: 12            # number of hours to simulate (only for cluster simulation) 
+    ntasks: 36           # number of simulation in one .sh (only for cluster simulation - default: 30) 
+    cpusPerTask: 1      # numer of CPUs per Task
+    numberOfJobsShellScript: 2
+
+#Lines/curves
+campaignLines:
+
+    campaignX:          # campaignX: parameter name to vary in the X-axis (ONLY 1)
+        - lambda
+    campaignLines:      # campaignLines: parameter name to vary in different lines
+        - numUes
+        - useShadowing
+        - useFading
+    jobs: 10             # Number of jobs to run 
+        
+# Simu parameters
+# colocar apenas os parâmetros que podem ser alterados via linha de comando
+scenarioParameters:
+    lambda:
+        - 0.001
+        - 0.01
+        - 0.1
+    packetSize:
+        - 125
+    numEnbs:
+        - 1
+    numUes:
+        - 1
+        - 5
+        - 10
+    simTime:
+        - 10.0
+    distance:
+        - 20
+    interPacketInterval:
+        - MilliSeconds(100)
+    radius:
+        - 10.0
+    useUdp:
+        - 0
+    usePoisson:
+        - 1
+    useShadowing:
+        - 1
+        - 0
+    useFading:
+        - 1
+        - 0
+        
+    useDl:
+        - 1
+    useUl:
+        - 0
+    usePl:
+        - 0
+    verbose:
+        - 0
+
