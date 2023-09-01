@@ -152,7 +152,7 @@ As atividades dos bolsistas serão divididas em três frentes:
       - Dario: **Prazo:** TBD .  **Feito:** 06/10/2021.
       - Eriberto: **Prazo:** . **Feito:** . 
    
-   ### **Atividade 2.4**: Entender, simular e plotar um cenário LTE + EPC [Hands-on](https://nbviewer.org/github/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_04/f02_hd04.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_04/f02_hd04.ipynb)
+   ### **Atividade 2.4**: Entender, simular e plotar um cenário LTE + EPC [Hands-on](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_04/f01_hd04.ipynb) - [link](https://github.com/vicentesousa/ns3-intermediate-training/blob/master/LTE/fase_02/HD_04/f01_hd04.ipynb)
       **Objetivos**:
       - **C1**: Explicar cada parte do script **lena-simple-epc.cc**. Ver Seção Evolved Packet Core (EPC)
       - **c2**: Cenário apenas com 1 eNB e 1 UE. Adicionar o fast fading e shadowing. 
