@@ -19,7 +19,7 @@ Série de Hands-on que descrevem as ferramentas, problemas e soluções encontra
  **Equipe de revisão:** Daniel Flor (danielflor@ufrn.edu.br) e Jéssika Cristina (jessie@ufrn.edu.br) - **Última Atualização:** 07/2019.
 
 
-### [Hands-on 2: Uso do Núcleo de Processamento de Alto Desempenho - NPAD (UFRN)](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/icTraining/ferramentas_complementares/HD_02/fc_hd02.ipynb)
+### [Hands-on 2: Uso do Núcleo de Processamento de Alto Desempenho - NPAD (UFRN)](https://nbviewer.jupyter.org/github/vicentesousa/ns3-intermediate-training/blob/master/ferramentas_complementares/HD_02/fc_hd02.ipynb)
 
 **Objetivos**
  - Simulando no supercomputador (NPAD) da UFRN.
